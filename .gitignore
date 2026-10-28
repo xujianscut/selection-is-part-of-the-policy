@@ -1,0 +1,5 @@
+results/pg_published/pg_paper.txt
+__pycache__/
+*.pyc
+.DS_Store
+paper_assets/*.png

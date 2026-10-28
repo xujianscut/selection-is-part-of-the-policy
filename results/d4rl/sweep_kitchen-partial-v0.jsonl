@@ -1,0 +1,15 @@
+{"env": "kitchen-partial-v0", "seed": 0, "N": 10, "rule": "argmax", "T": 1.0, "ret": 83.25, "se": 2.237604746151563, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 5, "rule": "argmax", "T": 1.0, "ret": 80.25, "se": 1.913602623325961, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 10, "rule": "soft", "T": 1.0, "ret": 73.5, "se": 2.056088519495209, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 5, "rule": "soft", "T": 0.5, "ret": 77.25, "se": 1.6618889854620253, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 5, "rule": "soft", "T": 1.0, "ret": 70.5, "se": 1.5960889699512368, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 10, "rule": "soft", "T": 0.5, "ret": 79.5, "se": 2.073041244162788, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 50, "rule": "argmax", "T": 1.0, "ret": 69.75, "se": 2.8786932799449128, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 50, "rule": "soft", "T": 0.5, "ret": 74.5, "se": 2.783433131943356, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 50, "rule": "soft", "T": 1.0, "ret": 72.25, "se": 2.3689396362085717, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 200, "rule": "argmax", "T": 1.0, "ret": 59.0, "se": 2.90516780926679, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 200, "rule": "soft", "T": 0.5, "ret": 76.75, "se": 2.721557458515252, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 200, "rule": "soft", "T": 1.0, "ret": 71.25, "se": 2.2741756748325317, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 500, "rule": "argmax", "T": 1.0, "ret": 67.25, "se": 3.096267914764483, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 500, "rule": "soft", "T": 0.5, "ret": 73.75, "se": 2.98695078633713, "episodes": 100}
+{"env": "kitchen-partial-v0", "seed": 0, "N": 500, "rule": "soft", "T": 1.0, "ret": 71.75, "se": 2.2818577957445116, "episodes": 100}

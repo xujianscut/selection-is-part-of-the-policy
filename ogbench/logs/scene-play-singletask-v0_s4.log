@@ -1,0 +1,92 @@
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+it 0 lpi 1.6360 lv 0.0568 lq 10.3318 6s
+it 50000 lpi 0.1676 lv 2.0708 lq 6.5149 918s
+it 100000 lpi 0.1469 lv 2.2219 lq 6.0175 1831s
+it 150000 lpi 0.2115 lv 1.9466 lq 7.1210 2767s
+it 200000 lpi 0.1570 lv 1.9291 lq 7.0015 3770s
+it 250000 lpi 0.1587 lv 1.7252 lq 7.2934 4774s
+it 300000 lpi 0.1473 lv 1.8279 lq 7.9541 5780s
+it 350000 lpi 0.1806 lv 1.7316 lq 7.7075 6787s
+it 400000 lpi 0.1265 lv 1.5911 lq 7.8730 7794s
+it 450000 lpi 0.1483 lv 1.6791 lq 6.9321 8802s
+offline {"N": 1, "q_select_heads": -118.90234375, "q_heldout_heads": -120.28961181640625}
+offline {"N": 2, "q_select_heads": -118.33902740478516, "q_heldout_heads": -120.1444320678711}
+offline {"N": 4, "q_select_heads": -117.8760986328125, "q_heldout_heads": -119.99907684326172}
+offline {"N": 8, "q_select_heads": -117.4654312133789, "q_heldout_heads": -119.87078094482422}
+offline {"N": 16, "q_select_heads": -117.168701171875, "q_heldout_heads": -119.81682586669922}
+offline {"N": 32, "q_select_heads": -116.8596420288086, "q_heldout_heads": -119.66930389404297}
+offline {"N": 64, "q_select_heads": -116.53558349609375, "q_heldout_heads": -119.576904296875}
+offline {"N": 128, "q_select_heads": -116.26232147216797, "q_heldout_heads": -119.5023422241211}
+offline {"N": 256, "q_select_heads": -116.0198745727539, "q_heldout_heads": -119.44856262207031}
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 1, "rule": "mean", "success": 0.04, "success_se": 0.027994168488950612, "ret": -2026.1, "q_selected": -106.10749997103326, "q_sd_selected": 11.884568629756108, "q_heldout": -108.30066035052383}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "mean", "success": 0.1, "success_se": 0.04285714285714286, "ret": -1326.16, "q_selected": -65.3262351432167, "q_sd_selected": 10.813162431807438, "q_heldout": -68.03420446988974}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "lcb2", "success": 0.16, "success_se": 0.05237229365663816, "ret": -1354.6, "q_selected": -65.98082948873359, "q_sd_selected": 8.714413979478962, "q_heldout": -66.52065931927761}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "lcb4", "success": 0.2, "success_se": 0.05714285714285715, "ret": -1430.36, "q_selected": -66.90788134913743, "q_sd_selected": 8.63833522858598, "q_heldout": -68.01090844674316}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "min", "success": 0.16, "success_se": 0.05237229365663817, "ret": -1409.04, "q_selected": -64.94001295721829, "q_sd_selected": 9.562848222378806, "q_heldout": -65.02585571207128}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "xfit", "success": 0.08, "success_se": 0.03875617133214439, "ret": -1424.9, "q_selected": -69.5812001529886, "q_sd_selected": 10.675043948490123, "q_heldout": -73.71052779731545}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "soft1", "success": 0.04, "success_se": 0.027994168488950606, "ret": -1511.98, "q_selected": -68.09273610319816, "q_sd_selected": 10.904928545537802, "q_heldout": -70.73483356108515}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "soft0.3", "success": 0.22, "success_se": 0.05917804336345138, "ret": -1324.94, "q_selected": -60.51159068214044, "q_sd_selected": 10.190148194880296, "q_heldout": -63.68547684993513}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 2, "rule": "mean_t05", "success": 0.02, "success_se": 0.019999999999999993, "ret": -1593.26, "q_selected": -80.8239505754866, "q_sd_selected": 11.157275130558647, "q_heldout": -82.72990393151466}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "mean", "success": 0.14, "success_se": 0.0495695759225642, "ret": -1223.96, "q_selected": -66.5171779008263, "q_sd_selected": 10.298566865958682, "q_heldout": -70.74900563371433}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "lcb2", "success": 0.1, "success_se": 0.04285714285714286, "ret": -1120.26, "q_selected": -46.925196346694406, "q_sd_selected": 7.273922420439455, "q_heldout": -48.544337064233524}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "lcb4", "success": 0.08, "success_se": 0.038756171332144394, "ret": -1145.32, "q_selected": -49.7849220111494, "q_sd_selected": 6.932314246339483, "q_heldout": -50.806151506269764}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "min", "success": 0.02, "success_se": 0.02, "ret": -1160.6, "q_selected": -49.629687921976775, "q_sd_selected": 7.6285439981183405, "q_heldout": -50.5509184948795}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "xfit", "success": 0.04, "success_se": 0.027994168488950606, "ret": -1338.16, "q_selected": -73.56369333945054, "q_sd_selected": 12.339529263695056, "q_heldout": -80.27970836474435}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "soft1", "success": 0.12, "success_se": 0.04642307659791978, "ret": -1347.92, "q_selected": -63.65541581440173, "q_sd_selected": 10.484160982056654, "q_heldout": -66.85985442203125}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "soft0.3", "success": 0.04, "success_se": 0.027994168488950612, "ret": -1269.24, "q_selected": -66.36994352904043, "q_sd_selected": 10.08709623576374, "q_heldout": -70.28209712402429}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 4, "rule": "mean_t05", "success": 0.1, "success_se": 0.04285714285714286, "ret": -1303.42, "q_selected": -69.88406099042967, "q_sd_selected": 9.807453641908898, "q_heldout": -73.1211332457459}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "mean", "success": 0.02, "success_se": 0.019999999999999993, "ret": -1335.54, "q_selected": -72.59658373445252, "q_sd_selected": 11.017807821969814, "q_heldout": -78.1561016656368}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "lcb2", "success": 0.02, "success_se": 0.019999999999999993, "ret": -1147.22, "q_selected": -48.121500321346055, "q_sd_selected": 6.990564455707342, "q_heldout": -48.98944448482976}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "lcb4", "success": 0.08, "success_se": 0.03875617133214439, "ret": -1149.1, "q_selected": -54.174720882746286, "q_sd_selected": 6.419419970306614, "q_heldout": -55.407438210207445}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "min", "success": 0.04, "success_se": 0.027994168488950606, "ret": -1170.72, "q_selected": -53.5145601230202, "q_sd_selected": 7.400714939306627, "q_heldout": -55.62553949102978}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -1392.3, "q_selected": -79.37227456665039, "q_sd_selected": 12.635048445383708, "q_heldout": -87.45185221354167}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "soft1", "success": 0.18, "success_se": 0.0548839220351387, "ret": -1170.8, "q_selected": -56.752684094286856, "q_sd_selected": 10.010005589921958, "q_heldout": -58.559534727993444}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "soft0.3", "success": 0.0, "success_se": 0.0, "ret": -1366.56, "q_selected": -75.46057154337565, "q_sd_selected": 11.18741651280721, "q_heldout": -81.08851106770834}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 8, "rule": "mean_t05", "success": 0.14, "success_se": 0.0495695759225642, "ret": -1227.88, "q_selected": -66.79786898353078, "q_sd_selected": 9.580608449929949, "q_heldout": -69.79261596726082}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "mean", "success": 0.0, "success_se": 0.0, "ret": -1423.84, "q_selected": -82.11797222900391, "q_sd_selected": 11.284725593566895, "q_heldout": -88.52979249064127}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "lcb2", "success": 0.08, "success_se": 0.03875617133214439, "ret": -1147.3, "q_selected": -53.055805917125106, "q_sd_selected": 6.981395973155713, "q_heldout": -53.862323702578166}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "lcb4", "success": 0.06, "success_se": 0.03392669167725119, "ret": -1159.88, "q_selected": -51.101173404942195, "q_sd_selected": 6.574992208391755, "q_heldout": -52.219996906221546}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "min", "success": 0.02, "success_se": 0.02, "ret": -1190.3, "q_selected": -58.46617212491023, "q_sd_selected": 7.281231158342825, "q_heldout": -60.368341466245624}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -1397.86, "q_selected": -78.57786377970378, "q_sd_selected": 12.689842878977458, "q_heldout": -87.17681644694011}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "soft1", "success": 0.18, "success_se": 0.0548839220351387, "ret": -1187.38, "q_selected": -61.349528448020855, "q_sd_selected": 9.632095004509413, "q_heldout": -64.30524016382752}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "soft0.3", "success": 0.0, "success_se": 0.0, "ret": -1352.7, "q_selected": -73.74680918375651, "q_sd_selected": 11.361099627176921, "q_heldout": -79.71996028645833}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 16, "rule": "mean_t05", "success": 0.04, "success_se": 0.027994168488950606, "ret": -1235.92, "q_selected": -64.92612445079071, "q_sd_selected": 9.503971076057718, "q_heldout": -67.60616491538373}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "mean", "success": 0.0, "success_se": 0.0, "ret": -1371.34, "q_selected": -75.91476727294922, "q_sd_selected": 11.080982818603516, "q_heldout": -82.16627591959636}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "lcb2", "success": 0.06, "success_se": 0.033926691677251195, "ret": -1209.66, "q_selected": -60.69221140799475, "q_sd_selected": 6.882440315875355, "q_heldout": -61.94638078777898}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "lcb4", "success": 0.06, "success_se": 0.03392669167725119, "ret": -1232.9, "q_selected": -58.987420645795176, "q_sd_selected": 6.062404952364578, "q_heldout": -59.797853297384144}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "min", "success": 0.0, "success_se": 0.0, "ret": -1248.5, "q_selected": -61.39097572835286, "q_sd_selected": 7.116344282150268, "q_heldout": -63.49514098103841}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -1452.12, "q_selected": -82.30902961222331, "q_sd_selected": 13.605299919128418, "q_heldout": -91.44388327026367}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "soft1", "success": 0.14, "success_se": 0.0495695759225642, "ret": -1261.34, "q_selected": -66.50991765019334, "q_sd_selected": 10.791725419386955, "q_heldout": -70.39149682190614}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "soft0.3", "success": 0.02, "success_se": 0.02, "ret": -1412.62, "q_selected": -80.70831418695037, "q_sd_selected": 11.767678318760627, "q_heldout": -87.51827257143181}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 32, "rule": "mean_t05", "success": 0.0, "success_se": 0.0, "ret": -1293.18, "q_selected": -69.30569942220052, "q_sd_selected": 9.92745495223999, "q_heldout": -73.92847102864583}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "mean", "success": 0.0, "success_se": 0.0, "ret": -1427.44, "q_selected": -80.43471897379557, "q_sd_selected": 12.582480630238852, "q_heldout": -87.97901528930664}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "lcb2", "success": 0.02, "success_se": 0.02, "ret": -1201.28, "q_selected": -55.991887215259574, "q_sd_selected": 6.709538953847281, "q_heldout": -56.846695161249365}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "lcb4", "success": 0.02, "success_se": 0.019999999999999993, "ret": -1310.24, "q_selected": -62.80514519908059, "q_sd_selected": 6.8072824923051485, "q_heldout": -63.17724246407019}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "min", "success": 0.0, "success_se": 0.0, "ret": -1238.94, "q_selected": -59.970353327433266, "q_sd_selected": 6.872976936340332, "q_heldout": -61.646349263509116}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -1423.9, "q_selected": -80.75361568196615, "q_sd_selected": 13.434603872934977, "q_heldout": -89.67687268066406}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "soft1", "success": 0.16, "success_se": 0.05237229365663816, "ret": -1207.3, "q_selected": -62.3682066736408, "q_sd_selected": 9.990829488012887, "q_heldout": -66.3811635465216}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "soft0.3", "success": 0.0, "success_se": 0.0, "ret": -1434.2, "q_selected": -82.51464255777995, "q_sd_selected": 11.72348948542277, "q_heldout": -89.03885170491536}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 64, "rule": "mean_t05", "success": 0.0, "success_se": 0.0, "ret": -1266.24, "q_selected": -65.40719362894694, "q_sd_selected": 9.91527978261312, "q_heldout": -69.39001355997722}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "mean", "success": 0.0, "success_se": 0.0, "ret": -1452.88, "q_selected": -82.51703560384115, "q_sd_selected": 12.657959023793538, "q_heldout": -90.51801456705729}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "lcb2", "success": 0.0, "success_se": 0.0, "ret": -1290.74, "q_selected": -63.55435219828288, "q_sd_selected": 6.851190649032593, "q_heldout": -65.31461359151204}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "lcb4", "success": 0.06, "success_se": 0.033926691677251195, "ret": -1289.86, "q_selected": -62.302369438357886, "q_sd_selected": 6.314635446714133, "q_heldout": -63.55414787157569}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "min", "success": 0.02, "success_se": 0.019999999999999993, "ret": -1264.84, "q_selected": -65.29937726682408, "q_sd_selected": 6.8895849113479715, "q_heldout": -67.30585676261586}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -1457.2, "q_selected": -84.94303240966796, "q_sd_selected": 14.103693163553874, "q_heldout": -94.75102527872721}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "soft1", "success": 0.12, "success_se": 0.04642307659791978, "ret": -1203.6, "q_selected": -62.24610291751709, "q_sd_selected": 10.621875157304359, "q_heldout": -67.172851478072}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "soft0.3", "success": 0.0, "success_se": 0.0, "ret": -1413.24, "q_selected": -80.00169287109375, "q_sd_selected": 12.15990933863322, "q_heldout": -87.26831487019857}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 128, "rule": "mean_t05", "success": 0.0, "success_se": 0.0, "ret": -1283.42, "q_selected": -68.27291228230794, "q_sd_selected": 10.423132363637288, "q_heldout": -73.28236954243978}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "mean", "success": 0.0, "success_se": 0.0, "ret": -1492.0, "q_selected": -88.13510061645508, "q_sd_selected": 13.787361642201741, "q_heldout": -97.31365745035808}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "lcb2", "success": 0.02, "success_se": 0.02, "ret": -1207.02, "q_selected": -58.50501639087293, "q_sd_selected": 6.692563029720441, "q_heldout": -60.101311586541115}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "lcb4", "success": 0.02, "success_se": 0.019999999999999993, "ret": -1381.9, "q_selected": -67.74236637917875, "q_sd_selected": 6.068548567294947, "q_heldout": -68.31413170592923}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "min", "success": 0.0, "success_se": 0.0, "ret": -1305.86, "q_selected": -67.18220016479492, "q_sd_selected": 7.317411552429199, "q_heldout": -69.41134250895182}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -1508.62, "q_selected": -88.45392370605468, "q_sd_selected": 14.25681004079183, "q_heldout": -98.09339852905273}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "soft1", "success": 0.08, "success_se": 0.03875617133214439, "ret": -1311.18, "q_selected": -72.4632686132713, "q_sd_selected": 10.575455969842604, "q_heldout": -77.42363459854353}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "soft0.3", "success": 0.0, "success_se": 0.0, "ret": -1483.3, "q_selected": -87.38014375813802, "q_sd_selected": 12.913387218475341, "q_heldout": -95.55216407267253}
+{"env": "scene-play-singletask-v0", "seed": 4, "N": 256, "rule": "mean_t05", "success": 0.0, "success_se": 0.0, "ret": -1327.04, "q_selected": -72.08557133483886, "q_sd_selected": 10.760676175435384, "q_heldout": -77.85062872314452}

@@ -1,0 +1,15 @@
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 5, "rule": "argmax", "T": 1.0, "ret": 60.5, "se": 1.2338962679253067, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 10, "rule": "argmax", "T": 1.0, "ret": 65.75, "se": 1.207010770457331, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 5, "rule": "soft", "T": 1.0, "ret": 55.0, "se": 1.0, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 5, "rule": "soft", "T": 0.5, "ret": 57.25, "se": 1.1344051304538427, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 10, "rule": "soft", "T": 1.0, "ret": 57.0, "se": 1.1224972160321824, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 10, "rule": "soft", "T": 0.5, "ret": 62.5, "se": 1.25, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 50, "rule": "argmax", "T": 1.0, "ret": 71.75, "se": 0.8407585860400119, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 50, "rule": "soft", "T": 1.0, "ret": 58.5, "se": 1.184271928232701, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 50, "rule": "soft", "T": 0.5, "ret": 67.5, "se": 1.14564392373896, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 200, "rule": "argmax", "T": 1.0, "ret": 73.25, "se": 0.6378675411086536, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 200, "rule": "soft", "T": 0.5, "ret": 68.5, "se": 1.0965856099730655, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 200, "rule": "soft", "T": 1.0, "ret": 59.5, "se": 1.2134661099511597, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 500, "rule": "argmax", "T": 1.0, "ret": 70.75, "se": 0.9390819985496475, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 500, "rule": "soft", "T": 1.0, "ret": 60.0, "se": 1.224744871391589, "episodes": 100}
+{"env": "kitchen-mixed-v0", "seed": 0, "N": 500, "rule": "soft", "T": 0.5, "ret": 70.25, "se": 0.9807522622966516, "episodes": 100}

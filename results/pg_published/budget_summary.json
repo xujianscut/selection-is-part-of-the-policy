@@ -1,0 +1,399 @@
+{
+ "rows": [
+  {
+   "task": "walker2d-medium-v2",
+   "dom": "mujoco",
+   "dv50": [
+    79.5,
+    0.3
+   ],
+   "dvbest": [
+    81.1,
+    0.2
+   ],
+   "dvbestN": "5",
+   "pg_best": [
+    82.3,
+    0.2
+   ],
+   "pg_a1": [
+    74.5,
+    0.8
+   ]
+  },
+  {
+   "task": "walker2d-medium-replay-v2",
+   "dom": "mujoco",
+   "dv50": [
+    83.5,
+    2.5
+   ],
+   "dvbest": [
+    85.9,
+    0.4
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    83.7,
+    1.0
+   ],
+   "pg_a1": [
+    52.3,
+    1.5
+   ]
+  },
+  {
+   "task": "walker2d-medium-expert-v2",
+   "dom": "mujoco",
+   "dv50": [
+    109.0,
+    0.1
+   ],
+   "dvbest": [
+    109.0,
+    0.1
+   ],
+   "dvbestN": "10",
+   "pg_best": [
+    109.4,
+    0.1
+   ],
+   "pg_a1": [
+    108.4,
+    0.1
+   ]
+  },
+  {
+   "task": "hopper-medium-v2",
+   "dom": "mujoco",
+   "dv50": [
+    84.1,
+    2.5
+   ],
+   "dvbest": [
+    91.5,
+    1.7
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    97.5,
+    0.6
+   ],
+   "pg_a1": [
+    54.3,
+    0.5
+   ]
+  },
+  {
+   "task": "hopper-medium-replay-v2",
+   "dom": "mujoco",
+   "dv50": [
+    91.3,
+    0.1
+   ],
+   "dvbest": [
+    91.3,
+    0.1
+   ],
+   "dvbestN": "50",
+   "pg_best": [
+    91.3,
+    0.3
+   ],
+   "pg_a1": [
+    61.4,
+    0.3
+   ]
+  },
+  {
+   "task": "hopper-medium-expert-v2",
+   "dom": "mujoco",
+   "dv50": [
+    109.9,
+    1.0
+   ],
+   "dvbest": [
+    110.6,
+    0.9
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    110.4,
+    0.1
+   ],
+   "pg_a1": [
+    87.0,
+    0.9
+   ]
+  },
+  {
+   "task": "halfcheetah-medium-v2",
+   "dom": "mujoco",
+   "dv50": [
+    50.9,
+    0.1
+   ],
+   "dvbest": [
+    52.3,
+    0.1
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    45.6,
+    0.5
+   ],
+   "pg_a1": [
+    43.4,
+    0.3
+   ]
+  },
+  {
+   "task": "halfcheetah-medium-replay-v2",
+   "dom": "mujoco",
+   "dv50": [
+    46.4,
+    0.2
+   ],
+   "dvbest": [
+    46.5,
+    0.6
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    46.4,
+    0.4
+   ],
+   "pg_a1": [
+    43.0,
+    0.5
+   ]
+  },
+  {
+   "task": "halfcheetah-medium-expert-v2",
+   "dom": "mujoco",
+   "dv50": [
+    92.3,
+    0.6
+   ],
+   "dvbest": [
+    92.3,
+    0.6
+   ],
+   "dvbestN": "50",
+   "pg_best": [
+    95.2,
+    0.1
+   ],
+   "pg_a1": [
+    95.1,
+    0.2
+   ]
+  },
+  {
+   "task": "kitchen-mixed-v0",
+   "dom": "kitchen",
+   "dv50": [
+    73.3,
+    0.6
+   ],
+   "dvbest": [
+    73.3,
+    0.6
+   ],
+   "dvbestN": "50",
+   "pg_best": [
+    74.6,
+    0.4
+   ],
+   "pg_a1": [
+    74.6,
+    0.4
+   ]
+  },
+  {
+   "task": "kitchen-partial-v0",
+   "dom": "kitchen",
+   "dv50": [
+    76.2,
+    4.3
+   ],
+   "dvbest": [
+    80.6,
+    1.8
+   ],
+   "dvbestN": "10",
+   "pg_best": [
+    88.0,
+    3.1
+   ],
+   "pg_a1": [
+    88.0,
+    3.1
+   ]
+  },
+  {
+   "task": "antmaze-medium-play-v2",
+   "dom": "antmaze",
+   "dv50": [
+    80.8,
+    1.3
+   ],
+   "dvbest": [
+    86.4,
+    1.4
+   ],
+   "dvbestN": "5",
+   "pg_best": [
+    87.8,
+    1.5
+   ],
+   "pg_a1": [
+    87.8,
+    1.5
+   ]
+  },
+  {
+   "task": "antmaze-medium-diverse-v2",
+   "dom": "antmaze",
+   "dv50": [
+    82.0,
+    3.6
+   ],
+   "dvbest": [
+    84.6,
+    1.6
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    87.3,
+    1.7
+   ],
+   "pg_a1": [
+    87.3,
+    1.7
+   ]
+  },
+  {
+   "task": "antmaze-large-play-v2",
+   "dom": "antmaze",
+   "dv50": [
+    80.8,
+    2.8
+   ],
+   "dvbest": [
+    81.0,
+    2.0
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    82.4,
+    2.1
+   ],
+   "pg_a1": [
+    74.6,
+    2.5
+   ]
+  },
+  {
+   "task": "antmaze-large-diverse-v2",
+   "dom": "antmaze",
+   "dv50": [
+    76.0,
+    2.3
+   ],
+   "dvbest": [
+    78.8,
+    2.6
+   ],
+   "dvbestN": "1",
+   "pg_best": [
+    76.0,
+    1.9
+   ],
+   "pg_a1": [
+    70.4,
+    1.8
+   ]
+  },
+  {
+   "task": "maze2d-umaze-v1",
+   "dom": "maze2d",
+   "dv50": [
+    133.8,
+    1.9
+   ],
+   "dvbest": [
+    139.7,
+    1.5
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    139.2,
+    1.3
+   ],
+   "pg_a1": [
+    139.2,
+    1.3
+   ]
+  },
+  {
+   "task": "maze2d-medium-v1",
+   "dom": "maze2d",
+   "dv50": [
+    144.1,
+    2.1
+   ],
+   "dvbest": [
+    151.2,
+    2.6
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    159.5,
+    0.8
+   ],
+   "pg_a1": [
+    148.4,
+    1.7
+   ]
+  },
+  {
+   "task": "maze2d-large-v1",
+   "dom": "maze2d",
+   "dv50": [
+    197.6,
+    4.2
+   ],
+   "dvbest": [
+    201.8,
+    5.5
+   ],
+   "dvbestN": "500",
+   "pg_best": [
+    195.2,
+    2.3
+   ],
+   "pg_a1": [
+    185.0,
+    5.3
+   ]
+  }
+ ],
+ "summary": {
+  "reported": {
+   "mean_gap": 3.3499999999999996,
+   "pg_sig_wins": 8,
+   "dv_sig_wins": 1
+  },
+  "matched": {
+   "mean_gap": 0.7722222222222234,
+   "pg_sig_wins": 6,
+   "dv_sig_wins": 2
+  },
+  "untuned": {
+   "mean_gap": -6.48888888888889,
+   "pg_sig_wins": 4,
+   "dv_sig_wins": 8
+  }
+ }
+}

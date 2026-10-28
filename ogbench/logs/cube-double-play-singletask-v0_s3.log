@@ -1,0 +1,92 @@
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+it 0 lpi 1.2252 lv 0.2270 lq 5.2034 6s
+it 50000 lpi 0.1775 lv 0.8491 lq 2.3034 922s
+it 100000 lpi 0.1992 lv 0.7958 lq 2.3598 1839s
+it 150000 lpi 0.1556 lv 0.6482 lq 2.2542 2779s
+it 200000 lpi 0.1648 lv 0.5664 lq 2.2475 3786s
+it 250000 lpi 0.1487 lv 0.4691 lq 2.0472 4796s
+it 300000 lpi 0.1221 lv 0.3957 lq 1.9663 5806s
+it 350000 lpi 0.1666 lv 0.4071 lq 1.9011 6816s
+it 400000 lpi 0.1658 lv 0.3464 lq 1.8413 7828s
+it 450000 lpi 0.1635 lv 0.3152 lq 2.0122 8840s
+offline {"N": 1, "q_select_heads": -110.5276107788086, "q_heldout_heads": -107.9411392211914}
+offline {"N": 2, "q_select_heads": -110.2956771850586, "q_heldout_heads": -107.9090347290039}
+offline {"N": 4, "q_select_heads": -110.14958953857422, "q_heldout_heads": -107.88044738769531}
+offline {"N": 8, "q_select_heads": -110.00056457519531, "q_heldout_heads": -107.8633804321289}
+offline {"N": 16, "q_select_heads": -109.8691177368164, "q_heldout_heads": -107.85384368896484}
+offline {"N": 32, "q_select_heads": -109.7557373046875, "q_heldout_heads": -107.8527603149414}
+offline {"N": 64, "q_select_heads": -109.63655853271484, "q_heldout_heads": -107.8510971069336}
+offline {"N": 128, "q_select_heads": -109.5371322631836, "q_heldout_heads": -107.81587982177734}
+offline {"N": 256, "q_select_heads": -109.42994689941406, "q_heldout_heads": -107.83342742919922}
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 1, "rule": "mean", "success": 0.0, "success_se": 0.0, "ret": -976.88, "q_selected": -107.5867060394287, "q_sd_selected": 12.728422344207763, "q_heldout": -107.0864299621582}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "mean", "success": 0.08, "success_se": 0.03875617133214439, "ret": -852.76, "q_selected": -84.58790421714781, "q_sd_selected": 16.289339566770067, "q_heldout": -85.29473548748649}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "lcb2", "success": 0.0, "success_se": 0.0, "ret": -965.22, "q_selected": -105.14050665283203, "q_sd_selected": 9.970155937194825, "q_heldout": -105.25190087890626}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "lcb4", "success": 0.02, "success_se": 0.019999999999999993, "ret": -984.22, "q_selected": -110.40203826324633, "q_sd_selected": 9.166907596028997, "q_heldout": -109.81988358782932}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "min", "success": 0.02, "success_se": 0.019999999999999993, "ret": -938.32, "q_selected": -98.74260428558672, "q_sd_selected": 12.620590133416329, "q_heldout": -99.22358410813814}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "xfit", "success": 0.02, "success_se": 0.019999999999999993, "ret": -913.34, "q_selected": -92.47454390604088, "q_sd_selected": 17.184509532874443, "q_heldout": -100.02004134697204}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "soft1", "success": 0.02, "success_se": 0.019999999999999993, "ret": -904.86, "q_selected": -94.53454021527959, "q_sd_selected": 15.14321835478536, "q_heldout": -93.05335126158168}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "soft0.3", "success": 0.06, "success_se": 0.033926691677251195, "ret": -885.98, "q_selected": -89.80350510819969, "q_sd_selected": 15.811803924639634, "q_heldout": -89.76111728117077}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 2, "rule": "mean_t05", "success": 0.0, "success_se": 0.0, "ret": -958.72, "q_selected": -101.3005464477539, "q_sd_selected": 14.62477586364746, "q_heldout": -100.38671713256836}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "mean", "success": 0.2, "success_se": 0.05714285714285715, "ret": -716.34, "q_selected": -79.23115199974605, "q_sd_selected": 14.962352811992169, "q_heldout": -76.28329262971879}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "lcb2", "success": 0.02, "success_se": 0.019999999999999993, "ret": -908.44, "q_selected": -99.26231778532296, "q_sd_selected": 8.762172098111478, "q_heldout": -99.1473306809322}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -983.06, "q_selected": -109.6985096130371, "q_sd_selected": 8.20512887096405, "q_heldout": -109.56216073608398}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "min", "success": 0.04, "success_se": 0.027994168488950606, "ret": -911.02, "q_selected": -92.93855444306189, "q_sd_selected": 11.608704447920587, "q_heldout": -91.76146299391621}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "xfit", "success": 0.04, "success_se": 0.027994168488950612, "ret": -825.3, "q_selected": -87.32663879522967, "q_sd_selected": 15.303616717275606, "q_heldout": -93.74884019533883}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "soft1", "success": 0.12, "success_se": 0.04642307659791978, "ret": -816.24, "q_selected": -84.6999881840572, "q_sd_selected": 14.844337289402286, "q_heldout": -84.59223443212113}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "soft0.3", "success": 0.18, "success_se": 0.0548839220351387, "ret": -710.54, "q_selected": -78.17013928308563, "q_sd_selected": 14.754420234988693, "q_heldout": -77.67455892997516}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 4, "rule": "mean_t05", "success": 0.0, "success_se": 0.0, "ret": -900.7, "q_selected": -87.92015438842773, "q_sd_selected": 15.346091371536255, "q_heldout": -84.73802070617675}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "mean", "success": 0.24, "success_se": 0.06101187572589322, "ret": -721.32, "q_selected": -78.40896170727821, "q_sd_selected": 14.251444543832081, "q_heldout": -76.9763124847898}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "lcb2", "success": 0.06, "success_se": 0.033926691677251195, "ret": -898.0, "q_selected": -99.4001251078894, "q_sd_selected": 8.554001684277862, "q_heldout": -98.7307732870181}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -983.78, "q_selected": -105.86683795166016, "q_sd_selected": 7.0953910961151125, "q_heldout": -105.65712117004395}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "min", "success": 0.06, "success_se": 0.03392669167725119, "ret": -870.1, "q_selected": -92.63059535349954, "q_sd_selected": 11.01965430138148, "q_heldout": -91.72118562871928}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "xfit", "success": 0.14, "success_se": 0.0495695759225642, "ret": -778.62, "q_selected": -86.85323065298574, "q_sd_selected": 17.74657791266107, "q_heldout": -96.98063091598945}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "soft1", "success": 0.24, "success_se": 0.061011875725893214, "ret": -758.52, "q_selected": -81.15994208339767, "q_sd_selected": 16.83963885335217, "q_heldout": -81.81306715226381}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "soft0.3", "success": 0.26, "success_se": 0.06266203485560375, "ret": -735.3, "q_selected": -81.08140340380274, "q_sd_selected": 14.566669443979613, "q_heldout": -81.13380683967898}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 8, "rule": "mean_t05", "success": 0.06, "success_se": 0.033926691677251195, "ret": -850.74, "q_selected": -88.20398626579976, "q_sd_selected": 14.412648387770377, "q_heldout": -86.28596701963517}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "mean", "success": 0.24, "success_se": 0.061011875725893214, "ret": -688.58, "q_selected": -76.11503094759854, "q_sd_selected": 13.900891161884486, "q_heldout": -75.33911583149947}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "lcb2", "success": 0.08, "success_se": 0.038756171332144394, "ret": -885.96, "q_selected": -94.97000586032827, "q_sd_selected": 7.868539592183249, "q_heldout": -94.74882599292745}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -994.48, "q_selected": -108.58866038513183, "q_sd_selected": 6.7707674713134764, "q_heldout": -108.32318551635743}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "min", "success": 0.08, "success_se": 0.03875617133214439, "ret": -909.44, "q_selected": -99.28327590277314, "q_sd_selected": 10.864156371436733, "q_heldout": -98.11307728052415}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "xfit", "success": 0.0, "success_se": 0.0, "ret": -846.88, "q_selected": -86.43572494506836, "q_sd_selected": 16.65952202606201, "q_heldout": -95.58651338195801}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "soft1", "success": 0.18, "success_se": 0.0548839220351387, "ret": -814.38, "q_selected": -84.13692078924615, "q_sd_selected": 15.966374478925912, "q_heldout": -85.11833928257862}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "soft0.3", "success": 0.32, "success_se": 0.06663945022680343, "ret": -682.36, "q_selected": -78.53641915174387, "q_sd_selected": 13.142071089104716, "q_heldout": -76.72962497694903}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 16, "rule": "mean_t05", "success": 0.14, "success_se": 0.0495695759225642, "ret": -811.84, "q_selected": -86.37796882104927, "q_sd_selected": 14.326532051689005, "q_heldout": -85.87572336644075}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "mean", "success": 0.2, "success_se": 0.05714285714285715, "ret": -743.92, "q_selected": -85.39310756871643, "q_sd_selected": 13.289510766766842, "q_heldout": -84.55842406710498}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "lcb2", "success": 0.02, "success_se": 0.019999999999999993, "ret": -945.92, "q_selected": -100.52035412771774, "q_sd_selected": 8.286353090244363, "q_heldout": -100.22434092468416}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -1000.0, "q_selected": -108.56682331848144, "q_sd_selected": 6.906001301765442, "q_heldout": -107.94313247680664}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "min", "success": 0.02, "success_se": 0.02, "ret": -888.94, "q_selected": -95.39136738114875, "q_sd_selected": 10.064163609636383, "q_heldout": -95.27388843288959}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "xfit", "success": 0.06, "success_se": 0.033926691677251195, "ret": -838.84, "q_selected": -88.83585800955194, "q_sd_selected": 15.902594168109303, "q_heldout": -96.03654466149148}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "soft1", "success": 0.18, "success_se": 0.054883922035138706, "ret": -775.12, "q_selected": -72.95643734189298, "q_sd_selected": 15.028337709792117, "q_heldout": -72.23368792464885}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "soft0.3", "success": 0.36, "success_se": 0.06857142857142856, "ret": -644.54, "q_selected": -77.87020236910534, "q_sd_selected": 15.241030474017641, "q_heldout": -75.99635123900327}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 32, "rule": "mean_t05", "success": 0.08, "success_se": 0.03875617133214439, "ret": -818.58, "q_selected": -79.30465433659104, "q_sd_selected": 13.63401621303193, "q_heldout": -79.52368525521742}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "mean", "success": 0.22, "success_se": 0.05917804336345138, "ret": -750.18, "q_selected": -87.60533621461656, "q_sd_selected": 14.180588402740705, "q_heldout": -86.6277007088072}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "lcb2", "success": 0.0, "success_se": 0.0, "ret": -931.06, "q_selected": -97.2873423614502, "q_sd_selected": 8.305024698257446, "q_heldout": -97.32431004333496}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -1000.0, "q_selected": -110.22374034118653, "q_sd_selected": 6.995980060577392, "q_heldout": -109.76764923095703}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "min", "success": 0.06, "success_se": 0.033926691677251195, "ret": -909.04, "q_selected": -92.09964191032539, "q_sd_selected": 9.580359729515786, "q_heldout": -92.48994478719645}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "xfit", "success": 0.02, "success_se": 0.02, "ret": -826.82, "q_selected": -88.45400675776563, "q_sd_selected": 15.88864727317561, "q_heldout": -96.86420058553763}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "soft1", "success": 0.28, "success_se": 0.06414269805898185, "ret": -680.8, "q_selected": -71.83812761707318, "q_sd_selected": 14.893387633260021, "q_heldout": -71.29816556617317}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "soft0.3", "success": 0.32, "success_se": 0.06663945022680343, "ret": -704.0, "q_selected": -81.75491173746312, "q_sd_selected": 12.281553753284033, "q_heldout": -80.01541499463882}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 64, "rule": "mean_t05", "success": 0.16, "success_se": 0.05237229365663816, "ret": -764.08, "q_selected": -80.43927902101908, "q_sd_selected": 12.728317262272434, "q_heldout": -79.56032808948108}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "mean", "success": 0.14, "success_se": 0.0495695759225642, "ret": -793.54, "q_selected": -88.29801390805834, "q_sd_selected": 14.703934559115657, "q_heldout": -87.91355724154778}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "lcb2", "success": 0.04, "success_se": 0.027994168488950606, "ret": -918.14, "q_selected": -97.3344330927668, "q_sd_selected": 8.459365524124442, "q_heldout": -96.6954170268785}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -988.42, "q_selected": -106.8797608795166, "q_sd_selected": 6.770555340766907, "q_heldout": -106.84048374938965}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "min", "success": 0.02, "success_se": 0.019999999999999993, "ret": -941.16, "q_selected": -99.31471690676355, "q_sd_selected": 9.241744646683086, "q_heldout": -99.0693430766635}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "xfit", "success": 0.04, "success_se": 0.027994168488950606, "ret": -847.86, "q_selected": -93.0990985707537, "q_sd_selected": 15.711213193133949, "q_heldout": -100.88632498843654}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "soft1", "success": 0.24, "success_se": 0.061011875725893214, "ret": -695.36, "q_selected": -74.88936786570318, "q_sd_selected": 15.263774730790425, "q_heldout": -73.49682786802991}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "soft0.3", "success": 0.26, "success_se": 0.06266203485560375, "ret": -687.68, "q_selected": -82.62981521611606, "q_sd_selected": 13.496060803521802, "q_heldout": -82.86442888837557}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 128, "rule": "mean_t05", "success": 0.12, "success_se": 0.04642307659791978, "ret": -796.3, "q_selected": -85.18293881770694, "q_sd_selected": 13.540215357463333, "q_heldout": -85.21372692716027}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "mean", "success": 0.12, "success_se": 0.04642307659791976, "ret": -804.3, "q_selected": -88.70883960773558, "q_sd_selected": 14.46463656750236, "q_heldout": -88.87595028687696}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "lcb2", "success": 0.02, "success_se": 0.019999999999999993, "ret": -961.44, "q_selected": -102.7949381639699, "q_sd_selected": 7.775075294363257, "q_heldout": -102.83453297046319}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "lcb4", "success": 0.0, "success_se": 0.0, "ret": -986.82, "q_selected": -107.4579189453125, "q_sd_selected": 6.703997915267944, "q_heldout": -107.00605683898925}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "min", "success": 0.02, "success_se": 0.019999999999999993, "ret": -895.12, "q_selected": -93.98002946721932, "q_sd_selected": 10.031986057447616, "q_heldout": -93.46298776287459}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "xfit", "success": 0.02, "success_se": 0.019999999999999993, "ret": -905.16, "q_selected": -99.64183817888481, "q_sd_selected": 12.920019908757165, "q_heldout": -104.6523038379146}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "soft1", "success": 0.22, "success_se": 0.05917804336345138, "ret": -732.46, "q_selected": -74.4053733154359, "q_sd_selected": 15.94353172302415, "q_heldout": -75.50600941807068}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "soft0.3", "success": 0.24, "success_se": 0.061011875725893214, "ret": -763.26, "q_selected": -89.84277904087877, "q_sd_selected": 12.154111848867263, "q_heldout": -91.15500889931329}
+{"env": "cube-double-play-singletask-v0", "seed": 3, "N": 256, "rule": "mean_t05", "success": 0.12, "success_se": 0.04642307659791976, "ret": -784.34, "q_selected": -81.59192048046391, "q_sd_selected": 13.133999881423414, "q_heldout": -79.06659890582888}

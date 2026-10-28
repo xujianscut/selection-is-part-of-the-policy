@@ -1,0 +1,92 @@
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+it 0 lpi 1.3848 lv 0.1822 lq 1.2888 6s
+it 50000 lpi 0.1683 lv 0.3903 lq 0.8349 913s
+it 100000 lpi 0.1448 lv 0.4272 lq 0.7474 1822s
+it 150000 lpi 0.1933 lv 0.3895 lq 0.8134 2751s
+it 200000 lpi 0.1818 lv 0.3500 lq 0.6525 3748s
+it 250000 lpi 0.1551 lv 0.4137 lq 0.8082 4747s
+it 300000 lpi 0.1652 lv 0.4299 lq 0.9973 5748s
+it 350000 lpi 0.1751 lv 0.3459 lq 0.8188 6748s
+it 400000 lpi 0.1507 lv 0.2879 lq 0.7842 7750s
+it 450000 lpi 0.1466 lv 0.2623 lq 0.7765 8752s
+offline {"N": 1, "q_select_heads": -25.772043228149414, "q_heldout_heads": -25.433195114135742}
+offline {"N": 2, "q_select_heads": -25.552295684814453, "q_heldout_heads": -25.339651107788086}
+offline {"N": 4, "q_select_heads": -25.333881378173828, "q_heldout_heads": -25.24260902404785}
+offline {"N": 8, "q_select_heads": -25.142210006713867, "q_heldout_heads": -25.139816284179688}
+offline {"N": 16, "q_select_heads": -24.975921630859375, "q_heldout_heads": -25.078174591064453}
+offline {"N": 32, "q_select_heads": -24.812471389770508, "q_heldout_heads": -24.999311447143555}
+offline {"N": 64, "q_select_heads": -24.675390243530273, "q_heldout_heads": -24.949914932250977}
+offline {"N": 128, "q_select_heads": -24.55623435974121, "q_heldout_heads": -24.90117835998535}
+offline {"N": 256, "q_select_heads": -24.438810348510742, "q_heldout_heads": -24.859928131103516}
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$WORKDIR/ogbench/venv/lib/python3.12/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 1, "rule": "mean", "success": 0.04, "success_se": 0.027994168488950606, "ret": -196.94, "q_selected": -27.037751157243356, "q_sd_selected": 3.4194759610389402, "q_heldout": -26.131323386114953}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "mean", "success": 0.56, "success_se": 0.07091242083423346, "ret": -150.74, "q_selected": -22.76443207987239, "q_sd_selected": 3.9748353471522764, "q_heldout": -21.9847470139165}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "lcb2", "success": 0.52, "success_se": 0.07137140569598169, "ret": -156.56, "q_selected": -23.34071657157958, "q_sd_selected": 3.2636246994187093, "q_heldout": -22.520677186709978}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "lcb4", "success": 0.22, "success_se": 0.05917804336345138, "ret": -180.08, "q_selected": -25.01177548341333, "q_sd_selected": 2.8860760208770957, "q_heldout": -24.50247057821112}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "min", "success": 0.52, "success_se": 0.07137140569598169, "ret": -149.16, "q_selected": -23.629478705623836, "q_sd_selected": 3.520050986478317, "q_heldout": -23.328220212223822}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "xfit", "success": 0.56, "success_se": 0.07091242083423346, "ret": -144.92, "q_selected": -23.80723249148562, "q_sd_selected": 3.9257808811296826, "q_heldout": -24.139275226220672}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "soft1", "success": 0.4, "success_se": 0.06998542122237651, "ret": -162.2, "q_selected": -23.676105393694776, "q_sd_selected": 3.880706807754723, "q_heldout": -22.649544676702106}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "soft0.3", "success": 0.58, "success_se": 0.07050835816716038, "ret": -148.06, "q_selected": -22.504592441254974, "q_sd_selected": 4.184361919808824, "q_heldout": -22.52268088646674}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 2, "rule": "mean_t05", "success": 0.1, "success_se": 0.04285714285714286, "ret": -191.26, "q_selected": -24.945815972859247, "q_sd_selected": 4.058288080711229, "q_heldout": -24.22682878066066}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "mean", "success": 0.9, "success_se": 0.04285714285714286, "ret": -90.66, "q_selected": -21.179090119283135, "q_sd_selected": 4.083023981998038, "q_heldout": -21.030660370959627}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "lcb2", "success": 0.8, "success_se": 0.05714285714285715, "ret": -119.0, "q_selected": -22.70317134570598, "q_sd_selected": 3.001846357936254, "q_heldout": -22.422475563265845}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "lcb4", "success": 0.42, "success_se": 0.07050835816716038, "ret": -164.22, "q_selected": -24.239779700574886, "q_sd_selected": 2.625133245256598, "q_heldout": -23.92092832578283}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "min", "success": 0.96, "success_se": 0.027994168488950606, "ret": -96.12, "q_selected": -20.474139578606692, "q_sd_selected": 3.102711537565083, "q_heldout": -19.878883725682257}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "xfit", "success": 0.88, "success_se": 0.04642307659791976, "ret": -110.72, "q_selected": -21.691899227156007, "q_sd_selected": 4.237990403816264, "q_heldout": -23.07177232790164}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "soft1", "success": 0.66, "success_se": 0.0676726816132972, "ret": -142.66, "q_selected": -22.88826330873243, "q_sd_selected": 4.265240558192546, "q_heldout": -22.591698558710487}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "soft0.3", "success": 0.92, "success_se": 0.03875617133214439, "ret": -86.48, "q_selected": -20.180152623549752, "q_sd_selected": 3.7312587715395527, "q_heldout": -19.33168910046191}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 4, "rule": "mean_t05", "success": 0.5, "success_se": 0.07142857142857142, "ret": -149.68, "q_selected": -21.546589989940944, "q_sd_selected": 3.9483697395665076, "q_heldout": -21.097578420828274}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "mean", "success": 0.94, "success_se": 0.033926691677251195, "ret": -86.66, "q_selected": -19.670316641515793, "q_sd_selected": 3.8338270881404615, "q_heldout": -19.24007398505189}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "lcb2", "success": 0.92, "success_se": 0.03875617133214439, "ret": -103.32, "q_selected": -20.921405932030492, "q_sd_selected": 2.791693401446456, "q_heldout": -20.236848998966348}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "lcb4", "success": 0.66, "success_se": 0.0676726816132972, "ret": -145.92, "q_selected": -23.59391574518696, "q_sd_selected": 2.5534971365744523, "q_heldout": -23.190081733654687}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "min", "success": 0.88, "success_se": 0.04642307659791978, "ret": -91.82, "q_selected": -21.06032796713655, "q_sd_selected": 3.350552722679887, "q_heldout": -20.490362924742467}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "xfit", "success": 0.9, "success_se": 0.04285714285714286, "ret": -94.12, "q_selected": -20.951246300137086, "q_sd_selected": 4.318803598594224, "q_heldout": -22.33956259813993}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "soft1", "success": 0.82, "success_se": 0.0548839220351387, "ret": -119.14, "q_selected": -20.746645650294433, "q_sd_selected": 3.848112176203179, "q_heldout": -20.614592566017947}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "soft0.3", "success": 0.92, "success_se": 0.03875617133214439, "ret": -91.66, "q_selected": -21.57362397243972, "q_sd_selected": 3.9973584589419446, "q_heldout": -20.65226028093794}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 8, "rule": "mean_t05", "success": 0.74, "success_se": 0.06266203485560375, "ret": -121.4, "q_selected": -19.12187005853973, "q_sd_selected": 4.222390137230958, "q_heldout": -19.065364696633235}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "mean", "success": 0.88, "success_se": 0.04642307659791978, "ret": -90.92, "q_selected": -21.591071526728943, "q_sd_selected": 3.8029359207433813, "q_heldout": -20.53054123070245}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "lcb2", "success": 0.84, "success_se": 0.05237229365663817, "ret": -98.48, "q_selected": -20.899649254794664, "q_sd_selected": 2.565438961507426, "q_heldout": -20.70094680574888}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "lcb4", "success": 0.7, "success_se": 0.06546536707079771, "ret": -128.18, "q_selected": -24.58652135291357, "q_sd_selected": 2.6172306529858482, "q_heldout": -24.37412393174506}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "min", "success": 0.9, "success_se": 0.04285714285714286, "ret": -92.24, "q_selected": -21.023423651756072, "q_sd_selected": 3.415587588392769, "q_heldout": -19.736204523115628}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "xfit", "success": 0.96, "success_se": 0.027994168488950606, "ret": -80.54, "q_selected": -19.53526228360603, "q_sd_selected": 3.7141481135666736, "q_heldout": -20.610897869273927}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "soft1", "success": 0.74, "success_se": 0.06266203485560375, "ret": -110.1, "q_selected": -18.377270078366518, "q_sd_selected": 3.968227654749286, "q_heldout": -17.81686197037905}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "soft0.3", "success": 0.92, "success_se": 0.03875617133214439, "ret": -81.36, "q_selected": -19.37336323478005, "q_sd_selected": 3.610555130182451, "q_heldout": -18.541393476374008}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 16, "rule": "mean_t05", "success": 0.88, "success_se": 0.04642307659791976, "ret": -90.72, "q_selected": -19.877394055070834, "q_sd_selected": 3.7562367805747487, "q_heldout": -19.139410663588077}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "mean", "success": 0.8, "success_se": 0.05714285714285715, "ret": -89.7, "q_selected": -21.612760183218434, "q_sd_selected": 4.036655524922998, "q_heldout": -20.94445759873364}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "lcb2", "success": 0.86, "success_se": 0.0495695759225642, "ret": -89.54, "q_selected": -21.987378076114485, "q_sd_selected": 2.5626228199595897, "q_heldout": -21.377318440285404}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "lcb4", "success": 0.62, "success_se": 0.06934092056863769, "ret": -127.94, "q_selected": -23.314581259779107, "q_sd_selected": 2.2508291647941636, "q_heldout": -22.988853297325566}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "min", "success": 0.82, "success_se": 0.0548839220351387, "ret": -100.18, "q_selected": -20.454611307465203, "q_sd_selected": 3.0093825351129664, "q_heldout": -19.858876997503902}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "xfit", "success": 0.94, "success_se": 0.033926691677251195, "ret": -84.86, "q_selected": -20.5807785207575, "q_sd_selected": 4.629615505369671, "q_heldout": -22.125488041831062}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "soft1", "success": 0.86, "success_se": 0.0495695759225642, "ret": -93.34, "q_selected": -20.028342296211584, "q_sd_selected": 4.418116648789424, "q_heldout": -19.18996873155015}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "soft0.3", "success": 0.9, "success_se": 0.04285714285714286, "ret": -81.8, "q_selected": -19.15576646959335, "q_sd_selected": 3.664285739474314, "q_heldout": -18.25300489723178}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 32, "rule": "mean_t05", "success": 0.96, "success_se": 0.027994168488950612, "ret": -83.74, "q_selected": -19.039856430377984, "q_sd_selected": 3.469311628685088, "q_heldout": -18.304221924530715}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "mean", "success": 0.76, "success_se": 0.061011875725893214, "ret": -103.38, "q_selected": -22.1974010718448, "q_sd_selected": 3.956353651348588, "q_heldout": -21.124993637470315}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "lcb2", "success": 0.82, "success_se": 0.0548839220351387, "ret": -101.04, "q_selected": -21.643435355373153, "q_sd_selected": 2.637445056225447, "q_heldout": -21.185082156976968}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "lcb4", "success": 0.76, "success_se": 0.061011875725893214, "ret": -120.86, "q_selected": -22.379375313167763, "q_sd_selected": 2.2920586442382804, "q_heldout": -22.012664930735387}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "min", "success": 0.86, "success_se": 0.0495695759225642, "ret": -82.22, "q_selected": -21.118517070076013, "q_sd_selected": 2.6901426235241677, "q_heldout": -20.370052897821093}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "xfit", "success": 0.76, "success_se": 0.061011875725893214, "ret": -96.46, "q_selected": -22.187640012377354, "q_sd_selected": 4.071245000088222, "q_heldout": -23.50112507888207}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "soft1", "success": 0.84, "success_se": 0.05237229365663817, "ret": -100.04, "q_selected": -21.044972189828385, "q_sd_selected": 4.128951029726478, "q_heldout": -20.704401308350107}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "soft0.3", "success": 0.82, "success_se": 0.0548839220351387, "ret": -85.46, "q_selected": -22.01450858892088, "q_sd_selected": 3.906494299018057, "q_heldout": -20.697055734635285}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 64, "rule": "mean_t05", "success": 0.82, "success_se": 0.0548839220351387, "ret": -98.06, "q_selected": -20.77212908970114, "q_sd_selected": 4.319909886249061, "q_heldout": -19.771876660944187}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "mean", "success": 0.68, "success_se": 0.06663945022680343, "ret": -101.5, "q_selected": -22.604535747773728, "q_sd_selected": 3.8615225017082437, "q_heldout": -21.65631050185276}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "lcb2", "success": 0.72, "success_se": 0.06414269805898185, "ret": -111.1, "q_selected": -22.28551643595374, "q_sd_selected": 2.3939972504416382, "q_heldout": -21.91015817235907}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "lcb4", "success": 0.56, "success_se": 0.07091242083423346, "ret": -138.2, "q_selected": -24.476929909009762, "q_sd_selected": 2.5121177763958147, "q_heldout": -24.254333598911334}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "min", "success": 0.8, "success_se": 0.057142857142857134, "ret": -89.3, "q_selected": -24.17652153434288, "q_sd_selected": 3.4830981890713333, "q_heldout": -24.01503322359989}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "xfit", "success": 0.76, "success_se": 0.061011875725893214, "ret": -99.16, "q_selected": -21.907859614221834, "q_sd_selected": 3.833066814178653, "q_heldout": -22.726220696138515}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "soft1", "success": 0.88, "success_se": 0.04642307659791976, "ret": -95.82, "q_selected": -18.66524599168022, "q_sd_selected": 3.8503355552393255, "q_heldout": -18.761547952156896}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "soft0.3", "success": 0.78, "success_se": 0.05917804336345136, "ret": -88.18, "q_selected": -21.353603072732472, "q_sd_selected": 3.783368467614591, "q_heldout": -20.4590910984029}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 128, "rule": "mean_t05", "success": 0.82, "success_se": 0.0548839220351387, "ret": -102.94, "q_selected": -21.60219324030321, "q_sd_selected": 4.047648013924854, "q_heldout": -20.26789340811136}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "mean", "success": 0.64, "success_se": 0.06857142857142857, "ret": -110.28, "q_selected": -22.93214505526119, "q_sd_selected": 3.7167337388283848, "q_heldout": -22.206376614658314}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "lcb2", "success": 0.66, "success_se": 0.0676726816132972, "ret": -114.34, "q_selected": -22.265852721504544, "q_sd_selected": 2.255841080499732, "q_heldout": -21.931068199489427}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "lcb4", "success": 0.62, "success_se": 0.06934092056863769, "ret": -127.86, "q_selected": -22.3714648145222, "q_sd_selected": 2.1542422341305767, "q_heldout": -22.070598532224206}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "min", "success": 0.82, "success_se": 0.0548839220351387, "ret": -85.02, "q_selected": -20.200620992319227, "q_sd_selected": 2.627185539924865, "q_heldout": -19.559235526153337}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "xfit", "success": 0.78, "success_se": 0.05917804336345136, "ret": -99.58, "q_selected": -21.84062308474526, "q_sd_selected": 3.7415918783155178, "q_heldout": -22.732603334249752}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "soft1", "success": 0.94, "success_se": 0.033926691677251195, "ret": -73.32, "q_selected": -17.987545643474355, "q_sd_selected": 3.6765120049997253, "q_heldout": -17.307104623128293}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "soft0.3", "success": 0.74, "success_se": 0.06266203485560375, "ret": -99.46, "q_selected": -22.766012905790895, "q_sd_selected": 3.8080398806316884, "q_heldout": -21.405370076116686}
+{"env": "cube-single-play-singletask-v0", "seed": 4, "N": 256, "rule": "mean_t05", "success": 0.84, "success_se": 0.05237229365663817, "ret": -98.54, "q_selected": -19.327034209042782, "q_sd_selected": 3.720800513351772, "q_heldout": -18.33261119549268}

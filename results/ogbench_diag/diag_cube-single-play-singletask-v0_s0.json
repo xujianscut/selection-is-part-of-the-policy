@@ -1,0 +1,3127 @@
+{
+ "env": "cube-single-play-singletask-v0",
+ "seed": 0,
+ "Nc": 16,
+ "Nb": 256,
+ "k": 20,
+ "calib": {
+  "0.5": {
+   "success": 0.8055555555555556,
+   "success_se": 0.046969543993374836,
+   "qpred": -23.687895470195347,
+   "n": 72
+  },
+  "0.75": {
+   "success": 0.7083333333333334,
+   "success_se": 0.05394274771736146,
+   "qpred": -22.927609576119316,
+   "n": 72
+  },
+  "0.9": {
+   "success": 0.5972222222222222,
+   "success_se": 0.05820650942569535,
+   "qpred": -22.507668998506333,
+   "n": 72
+  },
+  "0.97": {
+   "success": 0.5277777777777778,
+   "success_se": 0.05924743948371487,
+   "qpred": -22.381957822375828,
+   "n": 72
+  },
+  "0.99": {
+   "success": 0.4722222222222222,
+   "success_se": 0.05924743948371489,
+   "qpred": -22.303461776839363,
+   "n": 72
+  },
+  "1.0": {
+   "success": 0.5138888888888888,
+   "success_se": 0.05931618532716555,
+   "qpred": -22.179849492179024,
+   "n": 72
+  }
+ },
+ "rows": [
+  {
+   "episode": 0,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.633296966552734
+  },
+  {
+   "episode": 0,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -18.574878692626953
+  },
+  {
+   "episode": 0,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -18.507572174072266
+  },
+  {
+   "episode": 0,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -18.460697174072266
+  },
+  {
+   "episode": 0,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -18.412939071655273
+  },
+  {
+   "episode": 0,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.282743453979492
+  },
+  {
+   "episode": 0,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -17.014352798461914
+  },
+  {
+   "episode": 0,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -16.759496688842773
+  },
+  {
+   "episode": 0,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -16.687368392944336
+  },
+  {
+   "episode": 0,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -16.591259002685547
+  },
+  {
+   "episode": 0,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -16.5454158782959
+  },
+  {
+   "episode": 0,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -16.439603805541992
+  },
+  {
+   "episode": 0,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -16.027936935424805
+  },
+  {
+   "episode": 0,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -15.31537914276123
+  },
+  {
+   "episode": 0,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -14.883905410766602
+  },
+  {
+   "episode": 0,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -14.52989673614502
+  },
+  {
+   "episode": 0,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -14.543936729431152
+  },
+  {
+   "episode": 0,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -14.397894859313965
+  },
+  {
+   "episode": 1,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -30.99045753479004
+  },
+  {
+   "episode": 1,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -30.30112648010254
+  },
+  {
+   "episode": 1,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -28.751983642578125
+  },
+  {
+   "episode": 1,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -26.90512466430664
+  },
+  {
+   "episode": 1,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -26.472976684570312
+  },
+  {
+   "episode": 1,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -26.371906280517578
+  },
+  {
+   "episode": 1,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -31.2020320892334
+  },
+  {
+   "episode": 1,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -31.003564834594727
+  },
+  {
+   "episode": 1,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -30.662307739257812
+  },
+  {
+   "episode": 1,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -30.46291160583496
+  },
+  {
+   "episode": 1,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -30.134967803955078
+  },
+  {
+   "episode": 1,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -30.206857681274414
+  },
+  {
+   "episode": 1,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -30.354963302612305
+  },
+  {
+   "episode": 1,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -30.259077072143555
+  },
+  {
+   "episode": 1,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -30.0521183013916
+  },
+  {
+   "episode": 1,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -29.96259880065918
+  },
+  {
+   "episode": 1,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -29.86026954650879
+  },
+  {
+   "episode": 1,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -29.694791793823242
+  },
+  {
+   "episode": 1,
+   "anchor": 80,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -30.619766235351562
+  },
+  {
+   "episode": 1,
+   "anchor": 80,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -30.335866928100586
+  },
+  {
+   "episode": 1,
+   "anchor": 80,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -30.154560089111328
+  },
+  {
+   "episode": 1,
+   "anchor": 80,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -29.876367568969727
+  },
+  {
+   "episode": 1,
+   "anchor": 80,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -29.677448272705078
+  },
+  {
+   "episode": 1,
+   "anchor": 80,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -29.32268714904785
+  },
+  {
+   "episode": 1,
+   "anchor": 100,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -30.3139591217041
+  },
+  {
+   "episode": 1,
+   "anchor": 100,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -30.239728927612305
+  },
+  {
+   "episode": 1,
+   "anchor": 100,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -30.161535263061523
+  },
+  {
+   "episode": 1,
+   "anchor": 100,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -30.06257438659668
+  },
+  {
+   "episode": 1,
+   "anchor": 100,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -30.03162956237793
+  },
+  {
+   "episode": 1,
+   "anchor": 100,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -29.975126266479492
+  },
+  {
+   "episode": 1,
+   "anchor": 120,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -31.520231246948242
+  },
+  {
+   "episode": 1,
+   "anchor": 120,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -31.508535385131836
+  },
+  {
+   "episode": 1,
+   "anchor": 120,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -31.491376876831055
+  },
+  {
+   "episode": 1,
+   "anchor": 120,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -31.463552474975586
+  },
+  {
+   "episode": 1,
+   "anchor": 120,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -31.469623565673828
+  },
+  {
+   "episode": 1,
+   "anchor": 120,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -31.418624877929688
+  },
+  {
+   "episode": 1,
+   "anchor": 140,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -24.16705322265625
+  },
+  {
+   "episode": 1,
+   "anchor": 140,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -24.123868942260742
+  },
+  {
+   "episode": 1,
+   "anchor": 140,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -24.04915428161621
+  },
+  {
+   "episode": 1,
+   "anchor": 140,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -24.017656326293945
+  },
+  {
+   "episode": 1,
+   "anchor": 140,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -23.993684768676758
+  },
+  {
+   "episode": 1,
+   "anchor": 140,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -23.915430068969727
+  },
+  {
+   "episode": 1,
+   "anchor": 160,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.329885482788086
+  },
+  {
+   "episode": 1,
+   "anchor": 160,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -23.243499755859375
+  },
+  {
+   "episode": 1,
+   "anchor": 160,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -23.148244857788086
+  },
+  {
+   "episode": 1,
+   "anchor": 160,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -23.094730377197266
+  },
+  {
+   "episode": 1,
+   "anchor": 160,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -23.085006713867188
+  },
+  {
+   "episode": 1,
+   "anchor": 160,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -22.99121856689453
+  },
+  {
+   "episode": 2,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -30.897449493408203
+  },
+  {
+   "episode": 2,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -28.118274688720703
+  },
+  {
+   "episode": 2,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -22.43351173400879
+  },
+  {
+   "episode": 2,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -22.226970672607422
+  },
+  {
+   "episode": 2,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -22.01772117614746
+  },
+  {
+   "episode": 2,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -21.897361755371094
+  },
+  {
+   "episode": 3,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -31.510847091674805
+  },
+  {
+   "episode": 3,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -21.625844955444336
+  },
+  {
+   "episode": 3,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -21.562978744506836
+  },
+  {
+   "episode": 3,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -21.532114028930664
+  },
+  {
+   "episode": 3,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -21.50543785095215
+  },
+  {
+   "episode": 3,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -21.473285675048828
+  },
+  {
+   "episode": 4,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -30.989822387695312
+  },
+  {
+   "episode": 4,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.604990005493164
+  },
+  {
+   "episode": 4,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.464601516723633
+  },
+  {
+   "episode": 4,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -19.36571502685547
+  },
+  {
+   "episode": 4,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -19.296062469482422
+  },
+  {
+   "episode": 4,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -19.04170799255371
+  },
+  {
+   "episode": 4,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -19.155073165893555
+  },
+  {
+   "episode": 4,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.068201065063477
+  },
+  {
+   "episode": 4,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.007858276367188
+  },
+  {
+   "episode": 4,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -18.964189529418945
+  },
+  {
+   "episode": 4,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -18.956573486328125
+  },
+  {
+   "episode": 4,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.954837799072266
+  },
+  {
+   "episode": 4,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -19.97024154663086
+  },
+  {
+   "episode": 4,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.862043380737305
+  },
+  {
+   "episode": 4,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.80203628540039
+  },
+  {
+   "episode": 4,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -19.7236328125
+  },
+  {
+   "episode": 4,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -19.662073135375977
+  },
+  {
+   "episode": 4,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -19.607629776000977
+  },
+  {
+   "episode": 5,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -22.666608810424805
+  },
+  {
+   "episode": 5,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -22.62550926208496
+  },
+  {
+   "episode": 5,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -22.57655143737793
+  },
+  {
+   "episode": 5,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -22.53801918029785
+  },
+  {
+   "episode": 5,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -22.52094841003418
+  },
+  {
+   "episode": 5,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -22.485952377319336
+  },
+  {
+   "episode": 5,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.122802734375
+  },
+  {
+   "episode": 5,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -22.9918155670166
+  },
+  {
+   "episode": 5,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -22.920778274536133
+  },
+  {
+   "episode": 5,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -22.850666046142578
+  },
+  {
+   "episode": 5,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -22.798580169677734
+  },
+  {
+   "episode": 5,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -22.729698181152344
+  },
+  {
+   "episode": 5,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.61328125
+  },
+  {
+   "episode": 5,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -21.54974937438965
+  },
+  {
+   "episode": 5,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -21.5185604095459
+  },
+  {
+   "episode": 5,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -21.475784301757812
+  },
+  {
+   "episode": 5,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -21.44211769104004
+  },
+  {
+   "episode": 5,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -21.339574813842773
+  },
+  {
+   "episode": 6,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -30.68903160095215
+  },
+  {
+   "episode": 6,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -28.847949981689453
+  },
+  {
+   "episode": 6,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -27.29949378967285
+  },
+  {
+   "episode": 6,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -26.898090362548828
+  },
+  {
+   "episode": 6,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -26.72006607055664
+  },
+  {
+   "episode": 6,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -26.30010414123535
+  },
+  {
+   "episode": 6,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -31.186304092407227
+  },
+  {
+   "episode": 6,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -31.03877830505371
+  },
+  {
+   "episode": 6,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -30.897628784179688
+  },
+  {
+   "episode": 6,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -30.799848556518555
+  },
+  {
+   "episode": 6,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -30.613922119140625
+  },
+  {
+   "episode": 6,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -30.326162338256836
+  },
+  {
+   "episode": 6,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -31.112119674682617
+  },
+  {
+   "episode": 6,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -30.790678024291992
+  },
+  {
+   "episode": 6,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -30.45668601989746
+  },
+  {
+   "episode": 6,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -30.256805419921875
+  },
+  {
+   "episode": 6,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -29.956266403198242
+  },
+  {
+   "episode": 6,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -29.761484146118164
+  },
+  {
+   "episode": 6,
+   "anchor": 80,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -32.002620697021484
+  },
+  {
+   "episode": 6,
+   "anchor": 80,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -31.88563346862793
+  },
+  {
+   "episode": 6,
+   "anchor": 80,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -31.715543746948242
+  },
+  {
+   "episode": 6,
+   "anchor": 80,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -31.661352157592773
+  },
+  {
+   "episode": 6,
+   "anchor": 80,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -31.670368194580078
+  },
+  {
+   "episode": 6,
+   "anchor": 80,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -31.548742294311523
+  },
+  {
+   "episode": 6,
+   "anchor": 100,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -30.270994186401367
+  },
+  {
+   "episode": 6,
+   "anchor": 100,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -30.094375610351562
+  },
+  {
+   "episode": 6,
+   "anchor": 100,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -29.97614097595215
+  },
+  {
+   "episode": 6,
+   "anchor": 100,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -29.776153564453125
+  },
+  {
+   "episode": 6,
+   "anchor": 100,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -29.768354415893555
+  },
+  {
+   "episode": 6,
+   "anchor": 100,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -29.57587242126465
+  },
+  {
+   "episode": 6,
+   "anchor": 120,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -30.461191177368164
+  },
+  {
+   "episode": 6,
+   "anchor": 120,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -30.400985717773438
+  },
+  {
+   "episode": 6,
+   "anchor": 120,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -30.296491622924805
+  },
+  {
+   "episode": 6,
+   "anchor": 120,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -30.220355987548828
+  },
+  {
+   "episode": 6,
+   "anchor": 120,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -30.1394100189209
+  },
+  {
+   "episode": 6,
+   "anchor": 120,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -30.058942794799805
+  },
+  {
+   "episode": 6,
+   "anchor": 140,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -22.24249839782715
+  },
+  {
+   "episode": 6,
+   "anchor": 140,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -22.176544189453125
+  },
+  {
+   "episode": 6,
+   "anchor": 140,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -22.139053344726562
+  },
+  {
+   "episode": 6,
+   "anchor": 140,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -22.105314254760742
+  },
+  {
+   "episode": 6,
+   "anchor": 140,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -22.084463119506836
+  },
+  {
+   "episode": 6,
+   "anchor": 140,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -22.044937133789062
+  },
+  {
+   "episode": 6,
+   "anchor": 160,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -20.80270767211914
+  },
+  {
+   "episode": 6,
+   "anchor": 160,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -20.71689224243164
+  },
+  {
+   "episode": 6,
+   "anchor": 160,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -20.62135887145996
+  },
+  {
+   "episode": 6,
+   "anchor": 160,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -20.592370986938477
+  },
+  {
+   "episode": 6,
+   "anchor": 160,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -20.554462432861328
+  },
+  {
+   "episode": 6,
+   "anchor": 160,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.5147705078125
+  },
+  {
+   "episode": 7,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -19.32176971435547
+  },
+  {
+   "episode": 7,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.18177604675293
+  },
+  {
+   "episode": 7,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.088546752929688
+  },
+  {
+   "episode": 7,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -18.96451759338379
+  },
+  {
+   "episode": 7,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -18.952499389648438
+  },
+  {
+   "episode": 7,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.850500106811523
+  },
+  {
+   "episode": 7,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.050954818725586
+  },
+  {
+   "episode": 7,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -17.94921875
+  },
+  {
+   "episode": 7,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -17.89155387878418
+  },
+  {
+   "episode": 7,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -17.818614959716797
+  },
+  {
+   "episode": 7,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -17.820539474487305
+  },
+  {
+   "episode": 7,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -17.706350326538086
+  },
+  {
+   "episode": 7,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.103609085083008
+  },
+  {
+   "episode": 7,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -18.021808624267578
+  },
+  {
+   "episode": 7,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -17.93507957458496
+  },
+  {
+   "episode": 7,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -17.891664505004883
+  },
+  {
+   "episode": 7,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -17.810033798217773
+  },
+  {
+   "episode": 7,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -17.789386749267578
+  },
+  {
+   "episode": 7,
+   "anchor": 80,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.19892120361328
+  },
+  {
+   "episode": 7,
+   "anchor": 80,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -18.132030487060547
+  },
+  {
+   "episode": 7,
+   "anchor": 80,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -18.018095016479492
+  },
+  {
+   "episode": 7,
+   "anchor": 80,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -17.969221115112305
+  },
+  {
+   "episode": 7,
+   "anchor": 80,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -17.969636917114258
+  },
+  {
+   "episode": 7,
+   "anchor": 80,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -17.90839958190918
+  },
+  {
+   "episode": 7,
+   "anchor": 100,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.402040481567383
+  },
+  {
+   "episode": 7,
+   "anchor": 100,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -18.306543350219727
+  },
+  {
+   "episode": 7,
+   "anchor": 100,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -18.204130172729492
+  },
+  {
+   "episode": 7,
+   "anchor": 100,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -18.14919662475586
+  },
+  {
+   "episode": 7,
+   "anchor": 100,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -18.076711654663086
+  },
+  {
+   "episode": 7,
+   "anchor": 100,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -18.127822875976562
+  },
+  {
+   "episode": 7,
+   "anchor": 120,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.79877471923828
+  },
+  {
+   "episode": 7,
+   "anchor": 120,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -18.66702651977539
+  },
+  {
+   "episode": 7,
+   "anchor": 120,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -18.621768951416016
+  },
+  {
+   "episode": 7,
+   "anchor": 120,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -18.498722076416016
+  },
+  {
+   "episode": 7,
+   "anchor": 120,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -18.460371017456055
+  },
+  {
+   "episode": 7,
+   "anchor": 120,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -18.395648956298828
+  },
+  {
+   "episode": 7,
+   "anchor": 140,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.53064727783203
+  },
+  {
+   "episode": 7,
+   "anchor": 140,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -18.389116287231445
+  },
+  {
+   "episode": 7,
+   "anchor": 140,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -18.3045711517334
+  },
+  {
+   "episode": 7,
+   "anchor": 140,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -18.275493621826172
+  },
+  {
+   "episode": 7,
+   "anchor": 140,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -18.221946716308594
+  },
+  {
+   "episode": 7,
+   "anchor": 140,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -18.097782135009766
+  },
+  {
+   "episode": 7,
+   "anchor": 160,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.658966064453125
+  },
+  {
+   "episode": 7,
+   "anchor": 160,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -18.53870964050293
+  },
+  {
+   "episode": 7,
+   "anchor": 160,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -18.42842674255371
+  },
+  {
+   "episode": 7,
+   "anchor": 160,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -18.40602684020996
+  },
+  {
+   "episode": 7,
+   "anchor": 160,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -18.286142349243164
+  },
+  {
+   "episode": 7,
+   "anchor": 160,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -18.300392150878906
+  },
+  {
+   "episode": 8,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.862287521362305
+  },
+  {
+   "episode": 8,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -21.640960693359375
+  },
+  {
+   "episode": 8,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -21.48837661743164
+  },
+  {
+   "episode": 8,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -21.464004516601562
+  },
+  {
+   "episode": 8,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -21.30858039855957
+  },
+  {
+   "episode": 8,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -21.222753524780273
+  },
+  {
+   "episode": 8,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.722013473510742
+  },
+  {
+   "episode": 8,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -21.61530876159668
+  },
+  {
+   "episode": 8,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -21.46809959411621
+  },
+  {
+   "episode": 8,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -21.380538940429688
+  },
+  {
+   "episode": 8,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -21.25849723815918
+  },
+  {
+   "episode": 8,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.994869232177734
+  },
+  {
+   "episode": 8,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.77615737915039
+  },
+  {
+   "episode": 8,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -21.629947662353516
+  },
+  {
+   "episode": 8,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -21.573501586914062
+  },
+  {
+   "episode": 8,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -21.387643814086914
+  },
+  {
+   "episode": 8,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -21.334165573120117
+  },
+  {
+   "episode": 8,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -21.198148727416992
+  },
+  {
+   "episode": 8,
+   "anchor": 80,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.590620040893555
+  },
+  {
+   "episode": 8,
+   "anchor": 80,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -21.506338119506836
+  },
+  {
+   "episode": 8,
+   "anchor": 80,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -21.40533447265625
+  },
+  {
+   "episode": 8,
+   "anchor": 80,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -21.28609275817871
+  },
+  {
+   "episode": 8,
+   "anchor": 80,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -21.2615966796875
+  },
+  {
+   "episode": 8,
+   "anchor": 80,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.870447158813477
+  },
+  {
+   "episode": 8,
+   "anchor": 100,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.384809494018555
+  },
+  {
+   "episode": 8,
+   "anchor": 100,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -21.272397994995117
+  },
+  {
+   "episode": 8,
+   "anchor": 100,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -21.13157081604004
+  },
+  {
+   "episode": 8,
+   "anchor": 100,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -21.0873966217041
+  },
+  {
+   "episode": 8,
+   "anchor": 100,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -20.92928123474121
+  },
+  {
+   "episode": 8,
+   "anchor": 100,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.95368766784668
+  },
+  {
+   "episode": 8,
+   "anchor": 120,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -21.02231216430664
+  },
+  {
+   "episode": 8,
+   "anchor": 120,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -20.910419464111328
+  },
+  {
+   "episode": 8,
+   "anchor": 120,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -20.83013916015625
+  },
+  {
+   "episode": 8,
+   "anchor": 120,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -20.787307739257812
+  },
+  {
+   "episode": 8,
+   "anchor": 120,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -20.69198226928711
+  },
+  {
+   "episode": 8,
+   "anchor": 120,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.604095458984375
+  },
+  {
+   "episode": 8,
+   "anchor": 140,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -20.840890884399414
+  },
+  {
+   "episode": 8,
+   "anchor": 140,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -20.716644287109375
+  },
+  {
+   "episode": 8,
+   "anchor": 140,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -20.65516471862793
+  },
+  {
+   "episode": 8,
+   "anchor": 140,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -20.55160903930664
+  },
+  {
+   "episode": 8,
+   "anchor": 140,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -20.492691040039062
+  },
+  {
+   "episode": 8,
+   "anchor": 140,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.483539581298828
+  },
+  {
+   "episode": 8,
+   "anchor": 160,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -20.566417694091797
+  },
+  {
+   "episode": 8,
+   "anchor": 160,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -20.481359481811523
+  },
+  {
+   "episode": 8,
+   "anchor": 160,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -20.40363883972168
+  },
+  {
+   "episode": 8,
+   "anchor": 160,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -20.32202911376953
+  },
+  {
+   "episode": 8,
+   "anchor": 160,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -20.2492618560791
+  },
+  {
+   "episode": 8,
+   "anchor": 160,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -20.057235717773438
+  },
+  {
+   "episode": 9,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.858373641967773
+  },
+  {
+   "episode": 9,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -18.7943115234375
+  },
+  {
+   "episode": 9,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -18.744709014892578
+  },
+  {
+   "episode": 9,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -18.703737258911133
+  },
+  {
+   "episode": 9,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -18.657447814941406
+  },
+  {
+   "episode": 9,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.63067626953125
+  },
+  {
+   "episode": 9,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -19.792478561401367
+  },
+  {
+   "episode": 9,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.659406661987305
+  },
+  {
+   "episode": 9,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.567777633666992
+  },
+  {
+   "episode": 9,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -19.3775577545166
+  },
+  {
+   "episode": 9,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -19.3708553314209
+  },
+  {
+   "episode": 9,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.920516967773438
+  },
+  {
+   "episode": 9,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -19.462858200073242
+  },
+  {
+   "episode": 9,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.314363479614258
+  },
+  {
+   "episode": 9,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.272146224975586
+  },
+  {
+   "episode": 9,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -19.151939392089844
+  },
+  {
+   "episode": 9,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -18.986310958862305
+  },
+  {
+   "episode": 9,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.709238052368164
+  },
+  {
+   "episode": 10,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -19.89830207824707
+  },
+  {
+   "episode": 10,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -19.826528549194336
+  },
+  {
+   "episode": 10,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -19.745616912841797
+  },
+  {
+   "episode": 10,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -19.709718704223633
+  },
+  {
+   "episode": 10,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -19.603242874145508
+  },
+  {
+   "episode": 10,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -19.64453125
+  },
+  {
+   "episode": 11,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -22.984960556030273
+  },
+  {
+   "episode": 11,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -22.91732406616211
+  },
+  {
+   "episode": 11,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -22.855754852294922
+  },
+  {
+   "episode": 11,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -22.796541213989258
+  },
+  {
+   "episode": 11,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -22.715185165405273
+  },
+  {
+   "episode": 11,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -22.635746002197266
+  },
+  {
+   "episode": 11,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.346866607666016
+  },
+  {
+   "episode": 11,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -23.24382209777832
+  },
+  {
+   "episode": 11,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -23.175199508666992
+  },
+  {
+   "episode": 11,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -23.073999404907227
+  },
+  {
+   "episode": 11,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -23.025257110595703
+  },
+  {
+   "episode": 11,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -22.955747604370117
+  },
+  {
+   "episode": 11,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.47626304626465
+  },
+  {
+   "episode": 11,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -23.39507293701172
+  },
+  {
+   "episode": 11,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -23.27823829650879
+  },
+  {
+   "episode": 11,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -23.220264434814453
+  },
+  {
+   "episode": 11,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -23.169708251953125
+  },
+  {
+   "episode": 11,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -23.09611701965332
+  },
+  {
+   "episode": 11,
+   "anchor": 80,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.798460006713867
+  },
+  {
+   "episode": 11,
+   "anchor": 80,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -23.722171783447266
+  },
+  {
+   "episode": 11,
+   "anchor": 80,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -23.665851593017578
+  },
+  {
+   "episode": 11,
+   "anchor": 80,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -23.570831298828125
+  },
+  {
+   "episode": 11,
+   "anchor": 80,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -23.509092330932617
+  },
+  {
+   "episode": 11,
+   "anchor": 80,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -23.436521530151367
+  },
+  {
+   "episode": 11,
+   "anchor": 100,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -24.025426864624023
+  },
+  {
+   "episode": 11,
+   "anchor": 100,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -23.93561553955078
+  },
+  {
+   "episode": 11,
+   "anchor": 100,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -23.8295955657959
+  },
+  {
+   "episode": 11,
+   "anchor": 100,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -23.74375343322754
+  },
+  {
+   "episode": 11,
+   "anchor": 100,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -23.710586547851562
+  },
+  {
+   "episode": 11,
+   "anchor": 100,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -23.44293785095215
+  },
+  {
+   "episode": 11,
+   "anchor": 120,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -24.924575805664062
+  },
+  {
+   "episode": 11,
+   "anchor": 120,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -24.85627555847168
+  },
+  {
+   "episode": 11,
+   "anchor": 120,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -24.756216049194336
+  },
+  {
+   "episode": 11,
+   "anchor": 120,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -24.65781593322754
+  },
+  {
+   "episode": 11,
+   "anchor": 120,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -24.59575653076172
+  },
+  {
+   "episode": 11,
+   "anchor": 120,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -24.54863929748535
+  },
+  {
+   "episode": 11,
+   "anchor": 140,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -25.519575119018555
+  },
+  {
+   "episode": 11,
+   "anchor": 140,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -25.383886337280273
+  },
+  {
+   "episode": 11,
+   "anchor": 140,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -25.305692672729492
+  },
+  {
+   "episode": 11,
+   "anchor": 140,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -25.21929168701172
+  },
+  {
+   "episode": 11,
+   "anchor": 140,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -25.180997848510742
+  },
+  {
+   "episode": 11,
+   "anchor": 140,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -25.15010643005371
+  },
+  {
+   "episode": 11,
+   "anchor": 160,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -25.58292579650879
+  },
+  {
+   "episode": 11,
+   "anchor": 160,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -25.4826602935791
+  },
+  {
+   "episode": 11,
+   "anchor": 160,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -25.415056228637695
+  },
+  {
+   "episode": 11,
+   "anchor": 160,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -25.32071876525879
+  },
+  {
+   "episode": 11,
+   "anchor": 160,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -25.326597213745117
+  },
+  {
+   "episode": 11,
+   "anchor": 160,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -25.16879653930664
+  },
+  {
+   "episode": 12,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.500804901123047
+  },
+  {
+   "episode": 12,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -23.424068450927734
+  },
+  {
+   "episode": 12,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -23.357147216796875
+  },
+  {
+   "episode": 12,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -23.346851348876953
+  },
+  {
+   "episode": 12,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -23.31536293029785
+  },
+  {
+   "episode": 12,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -23.229822158813477
+  },
+  {
+   "episode": 12,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -23.329456329345703
+  },
+  {
+   "episode": 12,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -23.215259552001953
+  },
+  {
+   "episode": 12,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -23.109195709228516
+  },
+  {
+   "episode": 12,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -22.943740844726562
+  },
+  {
+   "episode": 12,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -22.96039390563965
+  },
+  {
+   "episode": 12,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -22.832815170288086
+  },
+  {
+   "episode": 13,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -28.001605987548828
+  },
+  {
+   "episode": 13,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -22.959707260131836
+  },
+  {
+   "episode": 13,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -22.777109146118164
+  },
+  {
+   "episode": 13,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -22.621044158935547
+  },
+  {
+   "episode": 13,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -22.588891983032227
+  },
+  {
+   "episode": 13,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -22.453174591064453
+  },
+  {
+   "episode": 13,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.176679611206055
+  },
+  {
+   "episode": 13,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -23.016271591186523
+  },
+  {
+   "episode": 13,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -22.864551544189453
+  },
+  {
+   "episode": 13,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -22.78177261352539
+  },
+  {
+   "episode": 13,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -22.717430114746094
+  },
+  {
+   "episode": 13,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -22.667200088500977
+  },
+  {
+   "episode": 14,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -29.626821517944336
+  },
+  {
+   "episode": 14,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -29.435449600219727
+  },
+  {
+   "episode": 14,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -15.371110916137695
+  },
+  {
+   "episode": 14,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -15.114489555358887
+  },
+  {
+   "episode": 14,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -15.096673965454102
+  },
+  {
+   "episode": 14,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -14.853926658630371
+  },
+  {
+   "episode": 14,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -14.503686904907227
+  },
+  {
+   "episode": 14,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -14.324396133422852
+  },
+  {
+   "episode": 14,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -14.166600227355957
+  },
+  {
+   "episode": 14,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -13.999201774597168
+  },
+  {
+   "episode": 14,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -13.969876289367676
+  },
+  {
+   "episode": 14,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -13.910201072692871
+  },
+  {
+   "episode": 15,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.410049438476562
+  },
+  {
+   "episode": 15,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -21.300416946411133
+  },
+  {
+   "episode": 15,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -21.237842559814453
+  },
+  {
+   "episode": 15,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -21.19744873046875
+  },
+  {
+   "episode": 15,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -21.100101470947266
+  },
+  {
+   "episode": 15,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -20.949804306030273
+  },
+  {
+   "episode": 15,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -18.509296417236328
+  },
+  {
+   "episode": 15,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -18.395795822143555
+  },
+  {
+   "episode": 15,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -18.249479293823242
+  },
+  {
+   "episode": 15,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -18.168569564819336
+  },
+  {
+   "episode": 15,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -18.079336166381836
+  },
+  {
+   "episode": 15,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -18.020572662353516
+  },
+  {
+   "episode": 16,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -31.294925689697266
+  },
+  {
+   "episode": 16,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -16.422962188720703
+  },
+  {
+   "episode": 16,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -16.329816818237305
+  },
+  {
+   "episode": 16,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -16.2954158782959
+  },
+  {
+   "episode": 16,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -16.288782119750977
+  },
+  {
+   "episode": 16,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -16.240680694580078
+  },
+  {
+   "episode": 17,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -16.264265060424805
+  },
+  {
+   "episode": 17,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -16.181846618652344
+  },
+  {
+   "episode": 17,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -16.121183395385742
+  },
+  {
+   "episode": 17,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -16.085813522338867
+  },
+  {
+   "episode": 17,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -16.05559539794922
+  },
+  {
+   "episode": 17,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -15.887130737304688
+  },
+  {
+   "episode": 17,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -15.523123741149902
+  },
+  {
+   "episode": 17,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -15.354527473449707
+  },
+  {
+   "episode": 17,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -15.147150993347168
+  },
+  {
+   "episode": 17,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -15.02983570098877
+  },
+  {
+   "episode": 17,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -14.888689994812012
+  },
+  {
+   "episode": 17,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -14.693209648132324
+  },
+  {
+   "episode": 18,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -23.389169692993164
+  },
+  {
+   "episode": 18,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -23.31660270690918
+  },
+  {
+   "episode": 18,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -23.2296142578125
+  },
+  {
+   "episode": 18,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -23.184629440307617
+  },
+  {
+   "episode": 18,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -23.106409072875977
+  },
+  {
+   "episode": 18,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -22.901514053344727
+  },
+  {
+   "episode": 19,
+   "anchor": 20,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -24.845792770385742
+  },
+  {
+   "episode": 19,
+   "anchor": 20,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -24.720884323120117
+  },
+  {
+   "episode": 19,
+   "anchor": 20,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -24.6818904876709
+  },
+  {
+   "episode": 19,
+   "anchor": 20,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -24.59576988220215
+  },
+  {
+   "episode": 19,
+   "anchor": 20,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -24.546079635620117
+  },
+  {
+   "episode": 19,
+   "anchor": 20,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -24.537750244140625
+  },
+  {
+   "episode": 19,
+   "anchor": 40,
+   "u": 0.5,
+   "success": 0.0,
+   "qpred": -29.613584518432617
+  },
+  {
+   "episode": 19,
+   "anchor": 40,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -29.450586318969727
+  },
+  {
+   "episode": 19,
+   "anchor": 40,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -29.35967445373535
+  },
+  {
+   "episode": 19,
+   "anchor": 40,
+   "u": 0.97,
+   "success": 0.0,
+   "qpred": -29.26228141784668
+  },
+  {
+   "episode": 19,
+   "anchor": 40,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -29.1555118560791
+  },
+  {
+   "episode": 19,
+   "anchor": 40,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -28.875028610229492
+  },
+  {
+   "episode": 19,
+   "anchor": 60,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -28.692014694213867
+  },
+  {
+   "episode": 19,
+   "anchor": 60,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -28.621417999267578
+  },
+  {
+   "episode": 19,
+   "anchor": 60,
+   "u": 0.9,
+   "success": 0.0,
+   "qpred": -28.560535430908203
+  },
+  {
+   "episode": 19,
+   "anchor": 60,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -28.504819869995117
+  },
+  {
+   "episode": 19,
+   "anchor": 60,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -28.475021362304688
+  },
+  {
+   "episode": 19,
+   "anchor": 60,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -28.355600357055664
+  },
+  {
+   "episode": 19,
+   "anchor": 80,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -28.727380752563477
+  },
+  {
+   "episode": 19,
+   "anchor": 80,
+   "u": 0.75,
+   "success": 1.0,
+   "qpred": -28.451284408569336
+  },
+  {
+   "episode": 19,
+   "anchor": 80,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -28.10019874572754
+  },
+  {
+   "episode": 19,
+   "anchor": 80,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -27.62360191345215
+  },
+  {
+   "episode": 19,
+   "anchor": 80,
+   "u": 0.99,
+   "success": 0.0,
+   "qpred": -27.09016227722168
+  },
+  {
+   "episode": 19,
+   "anchor": 80,
+   "u": 1.0,
+   "success": 0.0,
+   "qpred": -26.551904678344727
+  },
+  {
+   "episode": 19,
+   "anchor": 100,
+   "u": 0.5,
+   "success": 1.0,
+   "qpred": -21.750028610229492
+  },
+  {
+   "episode": 19,
+   "anchor": 100,
+   "u": 0.75,
+   "success": 0.0,
+   "qpred": -21.642078399658203
+  },
+  {
+   "episode": 19,
+   "anchor": 100,
+   "u": 0.9,
+   "success": 1.0,
+   "qpred": -21.589813232421875
+  },
+  {
+   "episode": 19,
+   "anchor": 100,
+   "u": 0.97,
+   "success": 1.0,
+   "qpred": -21.544675827026367
+  },
+  {
+   "episode": 19,
+   "anchor": 100,
+   "u": 0.99,
+   "success": 1.0,
+   "qpred": -21.50522804260254
+  },
+  {
+   "episode": 19,
+   "anchor": 100,
+   "u": 1.0,
+   "success": 1.0,
+   "qpred": -21.41024398803711
+  }
+ ],
+ "shift": {
+  "argmax_1": {
+   "nn_mean": 1.6764428615570068,
+   "nn_p90": 2.487421751022339,
+   "success": 0.15,
+   "steps": 3777
+  },
+  "argmax_4": {
+   "nn_mean": 1.5851539373397827,
+   "nn_p90": 2.4265570640563965,
+   "success": 0.95,
+   "steps": 1594
+  },
+  "argmax_16": {
+   "nn_mean": 3.752393960952759,
+   "nn_p90": 3.3396575450897217,
+   "success": 0.85,
+   "steps": 1964
+  },
+  "argmax_64": {
+   "nn_mean": 2.129967212677002,
+   "nn_p90": 3.285646677017212,
+   "success": 0.8,
+   "steps": 2098
+  },
+  "argmax_256": {
+   "nn_mean": 2.409397602081299,
+   "nn_p90": 3.4265971183776855,
+   "success": 0.75,
+   "steps": 2040
+  },
+  "soft1_4": {
+   "nn_mean": 2.2490079402923584,
+   "nn_p90": 4.669148921966553,
+   "success": 0.85,
+   "steps": 2080
+  },
+  "soft1_16": {
+   "nn_mean": 2.3043599128723145,
+   "nn_p90": 4.869260787963867,
+   "success": 0.8,
+   "steps": 2119
+  },
+  "soft1_64": {
+   "nn_mean": 1.6578431129455566,
+   "nn_p90": 2.552353858947754,
+   "success": 0.85,
+   "steps": 1763
+  },
+  "soft1_256": {
+   "nn_mean": 1.8112943172454834,
+   "nn_p90": 2.813638210296631,
+   "success": 1.0,
+   "steps": 1626
+  }
+ }
+}

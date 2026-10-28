@@ -1,0 +1,41 @@
+$PYTHONUSERBASE/lib/python3.11/site-packages/gymnasium/spaces/box.py:297: UserWarning: [33mWARN: Box low's precision lowered by casting to float32, current low.dtype=float64[0m
+  gym.logger.warn(
+$PYTHONUSERBASE/lib/python3.11/site-packages/gymnasium/spaces/box.py:364: UserWarning: [33mWARN: Box high's precision lowered by casting to float32, current high.dtype=float64[0m
+  gym.logger.warn(
+$HOME/bonsel/diag.py:74: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  st = torch.load(args.ckpt, map_location=dev)
+episode 0: T=235 anchors=8 branches=48
+episode 1: T=500 anchors=8 branches=48
+episode 2: T=500 anchors=8 branches=48
+episode 3: T=153 anchors=6 branches=36
+episode 4: T=500 anchors=8 branches=48
+episode 5: T=243 anchors=8 branches=48
+episode 6: T=500 anchors=8 branches=48
+episode 7: T=500 anchors=8 branches=48
+episode 8: T=310 anchors=8 branches=48
+episode 9: T=500 anchors=8 branches=48
+episode 10: T=500 anchors=8 branches=48
+episode 11: T=500 anchors=8 branches=48
+episode 12: T=500 anchors=8 branches=48
+episode 13: T=281 anchors=8 branches=48
+episode 14: T=500 anchors=8 branches=48
+episode 15: T=500 anchors=8 branches=48
+episode 16: T=500 anchors=8 branches=48
+episode 17: T=196 anchors=8 branches=48
+episode 18: T=500 anchors=8 branches=48
+episode 19: T=500 anchors=8 branches=48
+calib 0.5 {'success': np.float64(0.34177215189873417), 'success_se': np.float64(0.037853551868721365), 'qpred': np.float64(-84.28182653837567), 'n': 158}
+calib 0.75 {'success': np.float64(0.2721518987341772), 'success_se': np.float64(0.03552026807703891), 'qpred': np.float64(-84.0391468579256), 'n': 158}
+calib 0.9 {'success': np.float64(0.3037974683544304), 'success_se': np.float64(0.03670371703836395), 'qpred': np.float64(-83.81855961039096), 'n': 158}
+calib 0.97 {'success': np.float64(0.33544303797468356), 'success_se': np.float64(0.03768128209992672), 'qpred': np.float64(-83.58728904965558), 'n': 158}
+calib 0.99 {'success': np.float64(0.3037974683544304), 'success_se': np.float64(0.03670371703836395), 'qpred': np.float64(-83.45168203040015), 'n': 158}
+calib 1.0 {'success': np.float64(0.27848101265822783), 'success_se': np.float64(0.03577435816629942), 'qpred': np.float64(-83.14513661589804), 'n': 158}
+shift argmax 1 {'nn_mean': 2.702019214630127, 'nn_p90': 4.053715705871582, 'success': 0.0, 'steps': 10000}
+shift argmax 4 {'nn_mean': 2.913217782974243, 'nn_p90': 4.17340612411499, 'success': 0.15, 'steps': 9641}
+shift argmax 16 {'nn_mean': 3.39817476272583, 'nn_p90': 5.067897319793701, 'success': 0.2, 'steps': 9265}
+shift argmax 64 {'nn_mean': 3.584981918334961, 'nn_p90': 4.991096496582031, 'success': 0.05, 'steps': 9782}
+shift argmax 256 {'nn_mean': 3.6739301681518555, 'nn_p90': 5.135848045349121, 'success': 0.0, 'steps': 10000}
+shift soft1 4 {'nn_mean': 3.0207912921905518, 'nn_p90': 4.486847877502441, 'success': 0.15, 'steps': 9698}
+shift soft1 16 {'nn_mean': 2.6116082668304443, 'nn_p90': 3.592911720275879, 'success': 0.25, 'steps': 9005}
+shift soft1 64 {'nn_mean': 2.735395908355713, 'nn_p90': 3.847574234008789, 'success': 0.15, 'steps': 9116}
+shift soft1 256 {'nn_mean': 2.9495370388031006, 'nn_p90': 4.17842960357666, 'success': 0.3, 'steps': 9029}

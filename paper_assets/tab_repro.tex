@@ -1,0 +1,13 @@
+\begin{tabular}{l cc c cc c}
+\toprule
+ & \multicolumn{2}{c}{DV$^\star$, $N{=}50$, argmax} & & \multicolumn{2}{c}{PG (released code)} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){5-6}
+Task & reported & ours (5 seeds) & & reported & ours (3 seeds) & PG$-$DV$^\star$ (ours, paired) \\
+\midrule
+kitchen-mixed & 73.3 & 73.2{\scriptsize$\pm$0.3} & & 74.6 & 60.2{\scriptsize$\pm$15.5} & +4/-44/+2 \\
+kitchen-partial & 76.2 & 76.9{\scriptsize$\pm$3.2} & & 88.0 & 36.8{\scriptsize$\pm$7.1} & -39/-48/-26 \\
+antmaze-medium-play & 80.8 & 86.0{\scriptsize$\pm$2.1} & & 87.8 & 88.0{\scriptsize$\pm$3.0} & -3/+4/+3 \\
+antmaze-large-play & 80.8 & 76.4{\scriptsize$\pm$3.1} & & 82.4 & 75.3{\scriptsize$\pm$4.9} & +12/-13/+8 \\
+maze2d-large & 197.6 & 200.0{\scriptsize$\pm$1.5} & & 195.2 & 159.1{\scriptsize$\pm$12.6} & -30/-25/-71 \\
+\bottomrule
+\end{tabular}

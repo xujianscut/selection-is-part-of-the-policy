@@ -1,0 +1,289 @@
+diff --git a/DV/dv_d4rl_antmaze.py b/DV/dv_d4rl_antmaze.py
+index cf6bb66..a8df43f 100644
+--- a/DV/dv_d4rl_antmaze.py
++++ b/DV/dv_d4rl_antmaze.py
+@@ -71,6 +71,10 @@ flags.DEFINE_float('planner_temperature', 1.0, 'Planner temperature')
+ flags.DEFINE_float('planner_target_return', 1.0, 'Planner target return')
+ flags.DEFINE_float('planner_w_cfg', 1.0, 'Planner weight for CFG')
+ 
++flags.DEFINE_string('select_rule', 'argmax', 'argmax or soft')
++flags.DEFINE_float('soft_temp', 1.0, 'soft selection temperature')
++flags.DEFINE_integer('eval_seed', -1, 'per-episode env seed base (-1: unseeded)')
++flags.DEFINE_string('out_json', '', 'append eval result here')
+ # wandb
+ flags.DEFINE_string("entity", "entity_name", "entity name")
+ 
+@@ -114,7 +118,7 @@ def main(_):
+     update_fn = DV.update
+ 
+     # ---------------------- Training ----------------------
+-    if config.mode == "train":
++    if config.mode in ("train", "eval"):
+         config.use_planner_condition = False
+         config.use_policy_condition = True
+         config.train_condition = True  
+@@ -127,7 +131,7 @@ def main(_):
+         i = 0
+         carry = (agent_state, 0)
+ 
+-        while i < config.planner_diffusion_gradient_steps:
++        while config.mode == "train" and i < config.planner_diffusion_gradient_steps:
+             carry, info = jax.lax.scan(train_step, carry, None, config.log_interval)
+             (agent_state, i) = carry
+ 
+@@ -157,6 +161,7 @@ def main(_):
+                     }, f)
+ 
+         # last evaluation
++        critic, _ = nnx.merge(agent_state.critic_graphdef, agent_state.critic_state)  # critic_for_eval: defined even when training is skipped
+         model_path = f"./checkpoint/DV/{config.env_name}/{config.seed}/model_{config.planner_ckpt}.pkl"
+         with open(model_path, 'rb') as f:
+             model_info = pickle.load(f)
+@@ -180,6 +185,9 @@ def main(_):
+ 
+         eval_info, rng = evaluate(planner, policy, critic, planner.model, policy.model, agent_state.rng, config, env, normalizer)
+         wandb.log({f"eval_final/{k}": v for k, v in eval_info.items()}, step=0)
++        if config.out_json:
++            with open(config.out_json, "a") as fo:
++                fo.write(json.dumps(dict(env=config.env_name, seed=config.seed, N=config.planner_num_candidates, rule=config.select_rule, T=config.soft_temp, ret=float(eval_info["return"]), se=float(eval_info["return_std"]), episodes=config.num_episodes)) + "\n")
+ 
+ 
+ if __name__ == '__main__':
+diff --git a/DV/dv_d4rl_kitchen.py b/DV/dv_d4rl_kitchen.py
+index c398fcf..8fbb99b 100644
+--- a/DV/dv_d4rl_kitchen.py
++++ b/DV/dv_d4rl_kitchen.py
+@@ -69,6 +69,10 @@ flags.DEFINE_float('planner_temperature', 1.0, 'Planner temperature')
+ flags.DEFINE_float('planner_target_return', 1.0, 'Planner target return')
+ flags.DEFINE_float('planner_w_cfg', 1.0, 'Planner weight for CFG')
+ 
++flags.DEFINE_string('select_rule', 'argmax', 'argmax or soft')
++flags.DEFINE_float('soft_temp', 1.0, 'soft selection temperature')
++flags.DEFINE_integer('eval_seed', -1, 'per-episode env seed base (-1: unseeded)')
++flags.DEFINE_string('out_json', '', 'append eval result here')
+ # wandb
+ flags.DEFINE_string("entity", "entity_name", "entity name")
+ 
+@@ -116,7 +120,7 @@ def main(_):
+     update_fn = DV.update
+ 
+     # ---------------------- Training ----------------------
+-    if config.mode == "train":
++    if config.mode in ("train", "eval"):
+         config.use_planner_condition = False
+         config.use_policy_condition = True
+         config.train_condition = True
+@@ -129,7 +133,7 @@ def main(_):
+         i = 0
+         carry = (agent_state, 0)
+ 
+-        while i < config.planner_diffusion_gradient_steps:
++        while config.mode == "train" and i < config.planner_diffusion_gradient_steps:
+             carry, info = jax.lax.scan(train_step, carry, None, config.log_interval)
+             (agent_state, i) = carry
+ 
+@@ -161,6 +165,7 @@ def main(_):
+                 
+         
+         # last evaluation
++        critic, _ = nnx.merge(agent_state.critic_graphdef, agent_state.critic_state)  # critic_for_eval: defined even when training is skipped
+         model_path = f"./checkpoint/DV/{config.env_name}/{config.seed}/model_{config.planner_ckpt}.pkl"
+         with open(model_path, 'rb') as f:
+             model_info = pickle.load(f)
+@@ -184,6 +189,9 @@ def main(_):
+ 
+         eval_info, rng = evaluate(planner, policy, critic, planner.model, policy.model, agent_state.rng, config, env, normalizer)
+         wandb.log({f"eval_final/{k}": v for k, v in eval_info.items()}, step=0)
++        if config.out_json:
++            with open(config.out_json, "a") as fo:
++                fo.write(json.dumps(dict(env=config.env_name, seed=config.seed, N=config.planner_num_candidates, rule=config.select_rule, T=config.soft_temp, ret=float(eval_info["return"]), se=float(eval_info["return_std"]), episodes=config.num_episodes)) + "\n")
+ 
+ 
+ if __name__ == '__main__':
+diff --git a/DV/dv_d4rl_maze2d.py b/DV/dv_d4rl_maze2d.py
+index 7c00308..bae1140 100644
+--- a/DV/dv_d4rl_maze2d.py
++++ b/DV/dv_d4rl_maze2d.py
+@@ -71,6 +71,10 @@ flags.DEFINE_float('planner_temperature', 1.0, 'Planner temperature')
+ flags.DEFINE_float('planner_target_return', 1.0, 'Planner target return')
+ flags.DEFINE_float('planner_w_cfg', 1.0, 'Planner weight for CFG')
+ 
++flags.DEFINE_string('select_rule', 'argmax', 'argmax or soft')
++flags.DEFINE_float('soft_temp', 1.0, 'soft selection temperature')
++flags.DEFINE_integer('eval_seed', -1, 'per-episode env seed base (-1: unseeded)')
++flags.DEFINE_string('out_json', '', 'append eval result here')
+ # wandb
+ flags.DEFINE_string("entity", "entity_name", "entity name")
+ 
+@@ -123,7 +127,7 @@ def main(_):
+     update_fn = DV.update
+ 
+     # ---------------------- Training ----------------------
+-    if config.mode == "train":
++    if config.mode in ("train", "eval"):
+         config.use_planner_condition = False
+         config.use_policy_condition = True
+         config.train_condition = True 
+@@ -136,7 +140,7 @@ def main(_):
+         i = 0
+         carry = (agent_state, 0)
+ 
+-        while i < config.planner_diffusion_gradient_steps:
++        while config.mode == "train" and i < config.planner_diffusion_gradient_steps:
+             carry, info = jax.lax.scan(train_step, carry, None, config.log_interval)
+             (agent_state, i) = carry
+ 
+@@ -167,6 +171,7 @@ def main(_):
+ 
+ 
+         # last evaluation
++        critic, _ = nnx.merge(agent_state.critic_graphdef, agent_state.critic_state)  # critic_for_eval: defined even when training is skipped
+         model_path = f"./checkpoint/DV/{config.env_name}/{config.seed}/model_{config.planner_ckpt}.pkl"
+         with open(model_path, 'rb') as f:
+             model_info = pickle.load(f)
+@@ -190,6 +195,9 @@ def main(_):
+ 
+         eval_info, rng = evaluate(planner, policy, critic, planner.model, policy.model, agent_state.rng, config, env, normalizer)
+         wandb.log({f"eval_final/{k}": v for k, v in eval_info.items()}, step=0)
++        if config.out_json:
++            with open(config.out_json, "a") as fo:
++                fo.write(json.dumps(dict(env=config.env_name, seed=config.seed, N=config.planner_num_candidates, rule=config.select_rule, T=config.soft_temp, ret=float(eval_info["return"]), se=float(eval_info["return_std"]), episodes=config.num_episodes)) + "\n")
+ 
+ 
+ if __name__ == '__main__':
+diff --git a/DV/dv_d4rl_mujoco.py b/DV/dv_d4rl_mujoco.py
+index f883234..371ed9a 100644
+--- a/DV/dv_d4rl_mujoco.py
++++ b/DV/dv_d4rl_mujoco.py
+@@ -73,6 +73,10 @@ flags.DEFINE_float('planner_temperature', 1.0, 'Planner temperature')
+ flags.DEFINE_float('planner_target_return', 1.0, 'Planner target return')
+ flags.DEFINE_float('planner_w_cfg', 1.0, 'Planner weight for CFG')
+ 
++flags.DEFINE_string('select_rule', 'argmax', 'argmax or soft')
++flags.DEFINE_float('soft_temp', 1.0, 'soft selection temperature')
++flags.DEFINE_integer('eval_seed', -1, 'per-episode env seed base (-1: unseeded)')
++flags.DEFINE_string('out_json', '', 'append eval result here')
+ # wandb
+ flags.DEFINE_string("entity", "entity_name", "entity name")
+ 
+@@ -118,7 +122,7 @@ def main(_):
+ 
+ 
+     # ---------------------- Training ----------------------
+-    if config.mode == "train":
++    if config.mode in ("train", "eval"):
+         config.use_planner_condition = False
+         config.use_policy_condition = True
+         config.train_condition = True  
+@@ -131,7 +135,7 @@ def main(_):
+         i = 0
+         carry = (agent_state, 0)
+ 
+-        while i < config.planner_diffusion_gradient_steps:
++        while config.mode == "train" and i < config.planner_diffusion_gradient_steps:
+             
+             carry, info = jax.lax.scan(train_step, carry, None, config.log_interval)
+             (agent_state, i) = carry
+@@ -186,6 +190,9 @@ def main(_):
+ 
+         eval_info, rng = evaluate(planner, policy, critic, planner.model, policy.model, agent_state.rng, config, env, normalizer)
+         wandb.log({f"eval_final/{k}": v for k, v in eval_info.items()}, step=0)
++        if config.out_json:
++            with open(config.out_json, "a") as fo:
++                fo.write(json.dumps(dict(env=config.env_name, seed=config.seed, N=config.planner_num_candidates, rule=config.select_rule, T=config.soft_temp, ret=float(eval_info["return"]), se=float(eval_info["return_std"]), episodes=config.num_episodes)) + "\n")
+ 
+ 
+ if __name__ == '__main__':
+diff --git a/evaluation.py b/evaluation.py
+index 5f81951..7f4b378 100644
+--- a/evaluation.py
++++ b/evaluation.py
+@@ -12,7 +12,9 @@ def evaluate(planner, policy, critic, planner_model, policy_model, rng, config,
+     progress = tqdm(range(config.num_episodes))
+     
+     episode_rewards = []
+-    for _ in progress:
++    for ep_i in progress:
++        if getattr(config, "eval_seed", -1) >= 0:
++            env.seed(config.eval_seed + ep_i)
+         observation, cum_done, ep_reward, t = env.reset(), 0., 0., 0
+         
+         # for maze2d
+@@ -30,7 +32,16 @@ def evaluate(planner, policy, critic, planner_model, policy_model, rng, config,
+             
+             # MCSS
+             value = critic.eval_forward(traj)
+-            idx = jnp.argmax(value)
++            rule = getattr(config, "select_rule", "argmax")
++            if rule == "argmax":
++                idx = jnp.argmax(value)
++            elif rule == "soft":  # sample prop. to exp(z / T), z = per-step standardized critic value
++                v = value.reshape(-1)
++                z = (v - v.mean()) / (v.std() + 1e-6)
++                key3, rng = jax.random.split(rng)
++                idx = jax.random.categorical(key3, z / config.soft_temp)
++            else:
++                raise ValueError(rule)
+             traj = traj[idx]
+             traj = jnp.expand_dims(traj, axis=0)
+ 
+diff --git a/pg_d4rl_antmaze.py b/pg_d4rl_antmaze.py
+index 3a1885a..36f1ca2 100644
+--- a/pg_d4rl_antmaze.py
++++ b/pg_d4rl_antmaze.py
+@@ -14,6 +14,10 @@ flags.DEFINE_integer('seed', 0, 'Random seed')
+ flags.DEFINE_string('device', 'cuda:0', 'Device to use')
+ flags.DEFINE_string('project', 'pg', 'Project name')
+ 
++flags.DEFINE_string('pipeline_type', 'separate', 'Type of pipeline')
++flags.DEFINE_integer('save_interval', 200000, 'Save interval')
++flags.DEFINE_integer('planner_num_candidates', 50, 'Number of planner candidates')
++flags.DEFINE_string('guidance_type', 'MCSS', 'missing in released code; dataset centering flag')
+ flags.DEFINE_string('planner_net', 'transformer', 'Type of planner network')
+ flags.DEFINE_bool('rebase_policy', True, 'Rebase policy position') 
+ 
+diff --git a/pg_d4rl_kitchen.py b/pg_d4rl_kitchen.py
+index 7ea7f80..9aabcbd 100644
+--- a/pg_d4rl_kitchen.py
++++ b/pg_d4rl_kitchen.py
+@@ -14,6 +14,10 @@ flags.DEFINE_integer('seed', 0, 'Random seed')
+ flags.DEFINE_string('device', 'cuda:0', 'Device to use')
+ flags.DEFINE_string('project', 'pg', 'Project name')
+ 
++flags.DEFINE_string('pipeline_type', 'separate', 'Type of pipeline')
++flags.DEFINE_integer('save_interval', 200000, 'Save interval')
++flags.DEFINE_integer('planner_num_candidates', 50, 'Number of planner candidates')
++flags.DEFINE_string('guidance_type', 'MCSS', 'missing in released code; dataset centering flag')
+ flags.DEFINE_string('planner_net', 'transformer', 'Type of planner network')
+ flags.DEFINE_bool('rebase_policy', False, 'Rebase policy position')
+ 
+diff --git a/pg_d4rl_maze2d.py b/pg_d4rl_maze2d.py
+index b2059b1..f56ab55 100644
+--- a/pg_d4rl_maze2d.py
++++ b/pg_d4rl_maze2d.py
+@@ -14,6 +14,10 @@ flags.DEFINE_integer('seed', 0, 'Random seed')
+ flags.DEFINE_string('device', 'cuda:0', 'Device to use')
+ flags.DEFINE_string('project', 'pg', 'Project name')
+ 
++flags.DEFINE_string('pipeline_type', 'separate', 'Type of pipeline')
++flags.DEFINE_integer('save_interval', 200000, 'Save interval')
++flags.DEFINE_integer('planner_num_candidates', 50, 'Number of planner candidates')
++flags.DEFINE_string('guidance_type', 'MCSS', 'missing in released code; dataset centering flag')
+ flags.DEFINE_string('planner_net', 'transformer', 'Type of planner network')
+ flags.DEFINE_bool('rebase_policy', True, 'Rebase policy position')
+ 
+diff --git a/pg_d4rl_mujoco.py b/pg_d4rl_mujoco.py
+index c62f28e..35f4eb4 100644
+--- a/pg_d4rl_mujoco.py
++++ b/pg_d4rl_mujoco.py
+@@ -16,6 +16,10 @@ flags.DEFINE_integer('seed', 0, 'Random seed')
+ flags.DEFINE_string('device', 'cuda:0', 'Device to use')
+ flags.DEFINE_string('project', 'pg', 'Project name')
+ 
++flags.DEFINE_string('pipeline_type', 'separate', 'Type of pipeline')
++flags.DEFINE_integer('save_interval', 200000, 'Save interval')
++flags.DEFINE_integer('planner_num_candidates', 50, 'Number of planner candidates')
++flags.DEFINE_string('guidance_type', 'MCSS', 'missing in released code; dataset centering flag')
+ flags.DEFINE_string('planner_net', 'transformer', 'Type of planner network')
+ flags.DEFINE_bool('rebase_policy', False, 'Rebase policy position')
+ 
